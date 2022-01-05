@@ -1,0 +1,264 @@
+.dtdr-announcement-listing-holder,
+.dtdr-announcement-listing-holder a,
+.dtdr-announcement-listing-holder span,
+.dtdr-announcement-listing-holder p {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.dtdr-announcement-listing-holder {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5% 30% 50% 15%;
+    padding: 25px 15px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.dtdr-announcement-listing-holder * {
+    padding: 0 15px;
+}
+
+.dtdr-announcement-listing-holder h2 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.dtdr-announcement-listing-holder p {
+    font-size: initial;
+    margin: 0;
+    color: initial;
+    font-weight: 300;
+}
+
+.dtdr-announcement-listing-holder span {
+    font-size: 30px;
+}
+
+
+/* .dtdr-announcement-listing-holder,
+.dtdr-announcement-listing-holder h2,
+.dtdr-announcement-listing-holder a:hover {
+    color: #fff
+} */
+
+.dtdr-announcement-listing-holder a {
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    background: #fff;
+    /* max-width: 80%; */
+    margin: auto;
+}
+
+
+/* .dtdr-announcement-listing-holder.announcement p {
+    color: #fff;
+} */
+
+
+/* Book Now */
+
+.dtdr-announcement-listing-holder.booknow {
+    border-left-width: 3px;
+    border-left-style: solid;
+    display: flex;
+    width: 100%;
+    padding: 25px 15px;
+    flex-wrap: wrap;
+}
+
+.dtdr-announcement-listing-holder.booknow * {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-announcement-listing-holder.booknow span {
+    position: absolute;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    text-align: center;
+    line-height: 65px;
+    font-size: 26px;
+    border-radius: 65px;
+    display: inline-block;
+}
+
+.dtdr-announcement-listing-holder.booknow .dtdr-announcement-listing-inner {
+    display: inline-block;
+    padding: 0 0 0 90px;
+    text-align: left;
+}
+
+.dtdr-announcement-listing-holder.booknow h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.dtdr-announcement-listing-holder.booknow p {
+    font-weight: 300;
+    /* color: #868686; */
+}
+
+.dtdr-announcement-listing-holder.booknow a {
+    padding: 15px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.dtdr-announcement-listing-holder.booknow span,
+.dtdr-announcement-listing-holder.booknow a:hover {
+    background-color: #fff;
+}
+
+
+/* .dtdr-announcement-listing-holder.booknow,
+.dtdr-announcement-listing-holder.booknow h2,
+.dtdr-announcement-listing-holder.booknow a:hover {
+    color: #2a2a2a;
+} */
+
+.dtdr-announcement-listing-holder.booknow a,
+.dtdr-announcement-listing-holder.booknow:hover span {
+    color: #fff;
+}
+
+
+/* Contact Us */
+
+.dtdr-announcement-listing-holder.contactus {
+    grid-template-columns: 100%;
+    padding: 60px 20px;
+    margin: 0 0 30px 0;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.dtdr-announcement-listing-holder.contactus * {
+    margin: 0 0 25px;
+}
+
+.dtdr-announcement-listing-holder.contactus span {
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin: auto auto 30px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 36px;
+    border-radius: 65px;
+    color: #fff;
+}
+
+.dtdr-announcement-listing-holder.contactus a {
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+/* Announcement */
+
+.dtdr-announcement-listing-holder.announcement {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.dtdr-announcement-listing-holder.announcement * {
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.dtdr-announcement-listing-holder.announcement span {
+    margin-right: 20px;
+}
+
+.dtdr-announcement-listing-holder.announcement h2,
+.dtdr-announcement-listing-holder.announcement p {
+    width: 100%;
+}
+
+.dtdr-announcement-listing-holder.announcement h2:after {
+    position: relative;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.dtdr-announcement-listing-holder.contactus a:hover,
+.dtdr-announcement-listing-holder.announcement a {
+    color: #fff;
+}
+
+.dtdr-announcement-listing-holder.announcement a {
+    width: auto;
+    margin: 0;
+    padding: 15px 25px;
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (max-width:1024px) {
+    .dtdr-announcement-listing-holder.booknow {
+        padding: 30px 25px;
+    }
+    .dtdr-announcement-listing-holder.booknow .column {
+        width: 100%;
+        margin: 0 0 20px;
+        align-items: unset;
+    }
+    .dtdr-announcement-listing-holder.booknow .column:last-child {
+        margin-bottom: 0;
+    }
+    .dtdr-announcement-listing-holder.booknow .column,
+    .dtdr-announcement-listing-holder.booknow * {
+        align-items: unset;
+        text-align: inherit;
+    }
+    .dtdr-announcement-listing-holder.booknow .column>a {
+        margin-left: 90px;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    .dtdr-announcement-listing-holder.announcement {
+        padding: 40px;
+    }
+    .dtdr-announcement-listing-holder.booknow .dtdr-announcement-listing-inner {
+        padding: 90px 0 0 0;
+    }
+    .dtdr-announcement-listing-holder.booknow .column>a {
+        margin-left: 0;
+        width: auto;
+    }
+    .dtdr-listings-business-hours-container .dtdr-listings-business-hours-currenttime {
+        font-size: 12px;
+    }
+}

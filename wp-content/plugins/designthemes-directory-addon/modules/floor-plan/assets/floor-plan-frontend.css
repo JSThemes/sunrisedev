@@ -1,0 +1,107 @@
+/* Floorplan */
+
+.dtdr-listings-floorplan-box-container .dtdr-listings-floorplan-box-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border: 1px solid;
+    padding: 15px;
+}
+
+.dtdr-listings-floorplan-top-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    float: left;
+    justify-content: space-around;
+    padding: 15px;
+    line-height: normal;
+    align-items: center;
+}
+
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section {
+    padding: 3px 10px;
+}
+
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section span {
+    cursor: pointer;
+}
+
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section span.dtdr-close,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.open span.dtdr-open,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.close span.dtdr-close {
+    font-size: 0;
+}
+
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section span.dtdr-open,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.open span.dtdr-close,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.close span.dtdr-open {
+    font-size: 16px;
+}
+
+.dtdr-listings-floorplan-bottom-section {
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+.dtdr-listings-floorplan-bottom-section>div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 40% 60%;
+}
+
+.dtdr-listings-floorplan-bottom-section .dtdr-listings-floorplan-box-item-image img {
+    float: none;
+    display: inline-block;
+    width: min(100%, 420px);
+}
+
+.dtdr-listings-floorplan-bottom-section .dtdr-listings-floorplan-box-item-description {
+    text-align: left;
+    padding: 0 20px;
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    .dtdr-listings-floorplan-top-section {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .dtdr-listings-floorplan-box-container .dtdr-listings-floorplan-box-item {
+        padding: 5px;
+    }
+    .dtdr-listings-floorplan-bottom-section>div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dtdr-listings-floorplan-bottom-section .dtdr-listings-floorplan-box-item-description {
+        padding: 20px 0 0;
+    }
+    .dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section span.dtdr-open,
+    .dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.open span.dtdr-close,
+    .dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section.close span.dtdr-open {
+        font-size: 12px;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    .dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-box-item-title {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

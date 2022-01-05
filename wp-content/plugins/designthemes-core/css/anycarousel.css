@@ -1,0 +1,20 @@
+.elementor-widget-dt-anycarousel .dt-sc-any-carousel-wrapper { overflow: hidden; }
+
+.dt-sc-any-carousel-wrapper .swiper-slide { padding: 0 10px; }
+.dt-sc-any-carousel-wrapper .swiper-slide .dt-swiper-content-title { font-size: 1.5em; font-weight: bold; }
+.dt-sc-any-carousel-wrapper .swiper-slide .dt-swiper-content-image, .dt-sc-any-carousel-wrapper .swiper-slide .dt-swiper-content > * { margin-bottom: 0.75em; }
+.dt-sc-any-carousel-wrapper .swiper-slide .dt-swiper-content-btn { margin-top: 0.75em; margin-bottom: 0; }
+
+.dt-sc-any-carousel-wrapper .dt-swiper-button { background-image: none; color: #fff; }
+.dt-sc-any-carousel-wrapper .dt-swiper-button > i { text-align: center; width: 100%; }
+.dt-sc-any-carousel-wrapper .dt-swiper-button > i:before { height: 0; line-height: 0; }
+.dt-sc-any-carousel-wrapper .dt-swiper-button > i, .dt-sc-any-carousel-wrapper .dt-swiper-button > i:before { margin: auto; position: absolute; bottom: 0; left: 0; right: 0; top: 0; }
+
+.dt-sc-any-carousel-wrapper .swiper-pagination, .dt-sc-any-carousel-wrapper.swiper-container-horizontal > .swiper-scrollbar { margin: 10px 0; position: static; }
+
+.dt-sc-any-carousel-wrapper .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet { height: 10px; width: 10px; -webkit-border-radius: 50%; border-radius: 50%; -webkit-transition: all 0.3s linear 0s; transition: all 0.3s linear 0s; }
+.dt-sc-any-carousel-wrapper .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active { width: 25px; -webkit-border-radius: 1em; border-radius: 1em; }
+
+
+.dt-sc-any-carousel-wrapper .swiper-pagination.swiper-pagination-fraction { background: #000; color: #fff; display: table; height: 30px; line-height: 30px; margin-left: auto; margin-right: auto; padding: 0 20px 2px; width: auto; border-radius: 5px; }
+.dt-sc-any-carousel-wrapper .swiper-pagination.swiper-pagination-fraction > * { display: inline-block; vertical-align: top; }

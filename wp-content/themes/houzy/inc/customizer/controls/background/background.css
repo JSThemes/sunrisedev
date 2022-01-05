@@ -1,0 +1,58 @@
+.customize-control-dt-background {
+  position: relative;
+}
+
+.customize-control-dt-background .wp-picker-container input[type="text"].wp-color-picker {
+  max-width: 65px !important;
+}
+
+.customize-control-dt-background .screen-reader-text {
+  top: initial;
+}
+
+.customize-control-dt-background .background-attachment h4,
+.customize-control-dt-background .background-color h4,
+.customize-control-dt-background .background-position h4,
+.customize-control-dt-background .background-repeat h4,
+.customize-control-dt-background .background-size h4 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.customize-control-dt-background .background-repeat {
+  margin: 15px 0 8px 0;
+}
+
+.customize-control-dt-background .background-attachment .buttonset,
+.customize-control-dt-background .background-size .buttonset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customize-control-dt-background .background-attachment .buttonset .switch-label,
+.customize-control-dt-background .background-size .buttonset .switch-label {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #555;
+  padding: 4px;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.customize-control-dt-background .background-attachment .buttonset .switch-input:checked + .switch-label,
+.customize-control-dt-background .background-size .buttonset .switch-input:checked + .switch-label {
+  background-color: #298cbe;
+  color: #fff;
+}
+
+.customize-control-dt-background .more-settings {
+  margin-top: 12px;
+  display: inline-block;
+  padding: 5px 0 5px 0;
+  float: right;
+}
+
+.customize-control-dt-background .arrow-icon {
+  margin-left: 5px;
+}

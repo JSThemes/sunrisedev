@@ -1,0 +1,50 @@
+    .dtdr-dashboard-user-info {
+        text-align: center;
+    }
+    
+    .dtdr-dashboard-user-info .dtdr-dashboard-profile {
+        margin-bottom: 18px;
+    }
+    
+    .dtdr-dashboard-user-info .dtdr-dashboard-profile img {
+        border-radius: 50%;
+        margin: auto;
+    }
+    /*----*****---- << Tablet (Landscape) >> ----*****----*/
+    /* Note: Design for a width of 960px */
+    
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+        .dtdr-dashboard-container #primary>article>.dtdr-column.dtdr-one-fifth {
+            width: 23%;
+            margin: 0;
+        }
+        .dtdr-dashboard-container #primary>article>.dtdr-column:nth-child(2) {
+            width: 50%;
+            margin: 0 2%;
+        }
+    }
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/
+    /* Note: Design for a width of 768px */
+    
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+        .dtdr-dashboard-container #primary>article {
+            display: grid;
+            grid-template-areas: "header main" "header sidebar";
+            grid-gap: 30px;
+            grid-template-columns: 35% 65%;
+        }
+        .dtdr-dashboard-container #primary>article>.dtdr-column.dtdr-one-fifth {
+            grid-area: header;
+            width: 100%;
+        }
+        .dtdr-dashboard-container #primary>article>.dtdr-column:last-child {
+            grid-area: main;
+            width: 100%;
+            margin: 0;
+        }
+        .dtdr-dashboard-container #primary>article>.dtdr-column.dtdr-three-fifth {
+            grid-area: sidebar;
+            width: 100%;
+            margin: 0;
+        }
+    }

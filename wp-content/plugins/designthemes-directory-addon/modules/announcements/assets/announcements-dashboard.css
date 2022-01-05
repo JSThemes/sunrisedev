@@ -1,0 +1,49 @@
+.dtdr-my-announcements-container .dtdr-dashbord-announcements-addnew-wrapper {
+    margin-bottom: 30px;
+}
+
+.dtdr-my-announcements-container .dtdr-dashbord-announcements-addnew-wrapper .dtdr-dashbord-submit-announcement .chosen-container {
+    margin-bottom: 20px;
+}
+
+.dtdr-my-announcements-container .dtdr-dashbord-announcements-addnew-wrapper .custom-button-style {
+    margin-top: 0;
+}
+
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item {
+    position: relative;
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item .dtdr_announcements {
+    width: calc(100% - 65px);
+}
+
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item .dtdr-announcements-box-options {
+    position: absolute;
+    right: 0px;
+    left: auto;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+a.dtdr-dashboard-announcement-edit,
+a.dtdr-dashboard-announcement-delete {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    a.dtdr-dashboard-announcement-edit,
+    a.dtdr-dashboard-announcement-delete {
+        font-size: 12px;
+    }
+}

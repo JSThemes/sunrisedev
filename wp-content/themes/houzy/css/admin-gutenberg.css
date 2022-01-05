@@ -1,0 +1,21 @@
+.gutenberg__editor .wp-block-heading h1, .gutenberg__editor .wp-block-heading h1 a, .gutenberg__editor .wp-block-heading h2, .gutenberg__editor .wp-block-heading h2 a, .gutenberg__editor .wp-block-heading h3, .gutenberg__editor .wp-block-heading h3 a, .gutenberg__editor .wp-block-heading h4, .gutenberg__editor .wp-block-heading h4 a, .gutenberg__editor .wp-block-heading h5, .gutenberg__editor .wp-block-heading h5 a, .gutenberg__editor .wp-block-heading h6, .gutenberg__editor .wp-block-heading h6 a { color: #3a3a3a; }
+.gutenberg__editor .editor-rich-text ul, .gutenberg__editor .editor-rich-text ol { margin: 0 0 1.5em 3em; }
+.gutenberg__editor .editor-rich-text ul { list-style: disc; }
+.gutenberg__editor .editor-rich-text ol { list-style: decimal; }
+.gutenberg__editor dt { font-weight: bold; }
+.gutenberg__editor dd { margin: 0 1.5em 1.5em; }
+.gutenberg__editor blockquote:before, .gutenberg__editor blockquote:after, .gutenberg__editor q:before, .gutenberg__editor q:after { content: ""; }
+.gutenberg__editor blockquote, .gutenberg__editor q { quotes: "" ""; }
+.gutenberg__editor address { margin: 0 0 1.5em; }
+.edit-post-visual-editor .editor-post-title__block, .edit-post-visual-editor .editor-block-list__block { max-width: 800px }
+body.gutenberg-editor-page .editor-post-title__block, body.gutenberg-editor-page .editor-default-block-appender, body.gutenberg-editor-page .editor-block-list__block { max-width: 800px; }
+.gutenberg__editor img, .editor-styles-wrapper img { max-width: 100% !important; }
+.cs-sections .chosen-container, .chosen-container { width: 100% !important; }
+blockquote { border-left: 4px solid #252525; margin: 1rem 0; padding: 0 0 0 1.5rem; }
+.editor-block-list__block-edit blockquote.wp-block-quote { margin: 0; }
+.editor-block-list__block .wp-block-pullquote blockquote { border-width: 0; margin: 0; padding: 0; }
+.wp-block-quote__citation, .wp-block-quote cite, .wp-block-quote footer { margin-top: 0; }
+.editor-block-list__block-edit blockquote.wp-block-quote.is-large .wp-block-quote__citation, .editor-block-list__block-edit blockquote.wp-block-quote.is-large cite, .editor-block-list__block-edit blockquote.wp-block-quote.is-large footer { font-size: 18px; }
+.edit-post-layout__content .editor-styles-wrapper { margin: 0; }
+.edit-post-layout__content .editor-styles-wrapper, .editor-block-list__layout .editor-block-list__block[data-align="full"] { max-width: none; }
+body.gutenberg-editor-page .block-editor .wp-block-categories ul { list-style-position: inside; }

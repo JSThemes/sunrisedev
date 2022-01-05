@@ -1,0 +1,347 @@
+/*----*****---- << Open Hours Style >> ----*****----*/
+
+.dtdr-listings-business-hours-container {
+    padding: 30px 35px 50px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    line-height: normal;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status .dtdr-open-hours-status {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status .dtdr-open-hours-status:before {
+    font-weight: 100;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status .dtdr-open-hours-status.dtdr-open:before {
+    background-color: #43e795
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status .dtdr-open-hours-status.dtdr-closed:before {
+    background-color: #e32225
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status span[class*="dtdr-business-hours-"] {
+    font-weight: 400;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list {
+    margin: 0;
+    list-style: none;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li {
+    font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li:last-child {
+    border-bottom: none;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li+li {
+    margin-top: 18px;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li span.dtdr-business-hours-label {
+    font-weight: 600;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li .dtdr-business-hours-time,
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-status .dtdr-business-hours-time {
+    text-transform: lowercase;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-currenttime {
+    width: auto;
+    float: none;
+    display: flex;
+    padding: 10px 20px;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: -18px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.dtdr-listings-business-hours-container .dtdr-listings-business-hours-currenttime span {
+    margin-left: 10px;
+}
+
+
+/*----*****---- << Open Hours Status >> ----*****----*/
+
+
+/* Type 1 */
+
+.dtdr-listings-business-hours-status-container.type1 .dtdr-open-hours-status {
+    color: #000;
+    font-size: 14px;
+}
+
+.dtdr-listings-business-hours-status-container.type1 .dtdr-open-hours-status.dtdr-open:before {
+    color: #43e795;
+}
+
+.dtdr-listings-business-hours-status-container.type1 .dtdr-open-hours-status.dtdr-closed:before {
+    color: #e32225;
+}
+
+.dtdr-listings-business-hours-status-container.type1 .dtdr-open-hours-status:before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    font-weight: 100;
+    margin: 0 10px 0 0;
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-business-hours-status-container.type2 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-business-hours-status-container.type2 .dtdr-open-hours-status {
+    line-height: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-listings-business-hours-status-container.type2 .dtdr-open-hours-status:before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.dtdr-listings-business-hours-status-container.type2 .dtdr-open-hours-status.dtdr-open:before {
+    background-color: #43e795;
+}
+
+.dtdr-listings-business-hours-status-container.type2 .dtdr-open-hours-status.dtdr-closed:before {
+    background-color: #e32225;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-business-hours-status-container.type3 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status {
+    line-height: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status:before {
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status.dtdr-open {
+    background-color: #43e795;
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status.dtdr-open:before {
+    content: "\f09c";
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status.dtdr-closed {
+    background-color: #e32225;
+}
+
+.dtdr-listings-business-hours-status-container.type3 .dtdr-open-hours-status.dtdr-closed:before {
+    content: "\f023";
+}
+
+
+/* Type 4 */
+
+.dtdr-listings-business-hours-status-container.type4 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status {
+    line-height: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status:before {
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status.dtdr-open {
+    background-color: #43e795;
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status.dtdr-open:before {
+    content: "\f09c";
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status.dtdr-closed {
+    background-color: #e32225;
+}
+
+.dtdr-listings-business-hours-status-container.type4 .dtdr-open-hours-status.dtdr-closed:before {
+    content: "\f023";
+}
+
+
+/* Type 5 */
+
+.dtdr-listings-business-hours-status-container.type5 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-business-hours-status-container.type5 .dtdr-open-hours-status {
+    line-height: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-listings-business-hours-status-container.type5 .dtdr-open-hours-status:before {
+    font-family: "Font Awesome 5 Free";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.dtdr-listings-business-hours-status-container.type5 .dtdr-open-hours-status.dtdr-open:before {
+    content: "\f09c";
+    background-color: #43e795;
+}
+
+.dtdr-listings-business-hours-status-container.type5 .dtdr-open-hours-status.dtdr-closed:before {
+    content: "\f023";
+    background-color: #e32225;
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    .dtdr-listings-business-hours-container .dtdr-listings-business-hours-currenttime {
+        width: 100%;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (max-width: 479px) {
+    .dtdr-listings-business-hours-container .dtdr-listings-business-hours-status,
+    .dtdr-listings-business-hours-container .dtdr-listings-business-hours-list li {
+        font-size: 14px;
+    }
+    .dtdr-listings-business-hours-container {
+        padding: 25px 25px 50px;
+    }
+}

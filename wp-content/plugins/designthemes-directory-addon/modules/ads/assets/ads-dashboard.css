@@ -1,0 +1,142 @@
+.dtdr-dashbord-ads-listing table.dtdr-custom-table tbody tr td:last-child>* {
+    padding: 2px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 2px;
+    color: #fff;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper {
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 25px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li {
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    position: relative;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) {
+    padding: 10px 15px 10px 40px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) span {
+    position: absolute;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li.duration span,
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li.total-amount span {
+    position: relative;
+    margin-left: 5px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li:last-child {
+    border-bottom: none;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper {
+    margin-top: 30px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div>*:first-child {
+    margin-right: 10px;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div *[class*="-pricing"] {
+    display: flex;
+    font-weight: 700;
+    flex-flow: wrap;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div *[class*="-pricing"] ins {
+    margin-left: 5px;
+    color: initial;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div *[class*="-pricing"]:before {
+    content: "(";
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div *[class*="-pricing"]:after {
+    content: ")";
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div {
+    width: auto;
+    margin: 0 0 15px;
+    padding-right: 30px;
+    clear: none;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper .custom-button-style {
+    margin-top: 0;
+}
+
+.dtdr-dashbord-ads-listing table.dtdr-custom-table tbody tr td:last-child>* {
+    display: block;
+}
+
+.dtdr-dashbord-ads-listing table.dtdr-custom-table tbody tr td:last-child span.incart {
+    margin-bottom: 5px;
+}
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 960px */
+
+
+/* @media only screen and (max-width:1280px) {
+    .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details>div {
+        width: auto;
+        margin: 0 0 15px;
+        padding-right: 30px;
+    }
+} */
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    .dtdr-dashbord-ads-listing table.dtdr-custom-table tbody tr td:last-child>* {
+        padding: 3px 5px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,6 @@
+/*Incharges Section*/
+
+.dtdr-incharge-option>a[data-tooltip*="Incharge"] {
+    margin: 0 5px 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,383 @@
+/* CSS Document */
+
+.dt-advanced-carousel-wrapper .slick-slide .dt-slick-content-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.dt-custom-icon-box-carousel .dt-advanced-carousel-wrapper .slick-slide .dt-slick-content-image {
+    padding-right: 25%;
+}
+
+.dt-advanced-carousel-wrapper .slick-slide .dt-slick-content-image,
+.dt-advanced-carousel-wrapper .slick-slide .dt-slick-content>* {
+    margin-bottom: 0.75em;
+}
+
+.dt-image-box-type4 .dt-advanced-carousel-wrapper .slick-slide {
+    padding: 3px 0;
+}
+
+.dt-advanced-carousel-wrapper .slick-slide .dt-slick-content-btn {
+    margin-top: 0.75em;
+    margin-bottom: 0;
+}
+
+.dt-advanced-carousel-wrapper .dt-slick-button {
+    background-image: none;
+    color: #fff;
+}
+
+.dt-advanced-carousel-wrapper .dt-slick-button>i {
+    text-align: center;
+    width: 100%;
+}
+
+.dt-advanced-carousel-wrapper .dt-slick-button>i:before {
+    height: 0;
+    line-height: 0;
+}
+
+.dt-advanced-carousel-wrapper .dt-slick-button>i,
+.dt-advanced-carousel-wrapper .dt-slick-button>i:before {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+/* Navigation Arrows */
+
+.dt-advanced-carousel-wrapper .slick-arrow {
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    width: 35px;
+    z-index: 2;
+    bottom: calc(100% + 50px);
+    top: auto;
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow.slick-disabled {
+    cursor: not-allowed;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow:before {
+    content: none;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow.slick-prev {
+    right: 45px;
+    left: auto;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+    right: 0;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow span,
+.dt-advanced-carousel-wrapper .slick-arrow span:before {
+    font-size: 14px;
+    height: 100%;
+    line-height: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="border"] {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="circle"] {
+    border-radius: 50%;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow.style-1,
+.dt-advanced-carousel-wrapper .slick-arrow.style-1:before,
+.dt-advanced-carousel-wrapper .slick-arrow.style-1 span,
+.dt-advanced-carousel-wrapper .slick-arrow.style-1 span:before,
+.dt-advanced-carousel-wrapper .slick-arrow.circle-border,
+.dt-advanced-carousel-wrapper .slick-arrow.circle-border:before,
+.dt-advanced-carousel-wrapper .slick-arrow.circle-border span,
+.dt-advanced-carousel-wrapper .slick-arrow.circle-border span:before,
+.dt-advanced-carousel-wrapper .slick-arrow.square-border,
+.dt-advanced-carousel-wrapper .slick-arrow.square-border:before,
+.dt-advanced-carousel-wrapper .slick-arrow.square-border span,
+.dt-advanced-carousel-wrapper .slick-arrow.square-border span:before {
+    color: currentColor;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="bg"] {
+    color: #fff;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="border"] {
+    border-color: currentColor;
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="bg"] {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dt-advanced-carousel-wrapper .slick-arrow[class*="bg"]:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+/* Vertically Middle */
+
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    background: none;
+    height: 58px;
+    width: 54px;
+}
+
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow span {
+    height: 100%;
+    width: 100%;
+}
+
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow span:before,
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow span:hover:before {
+    line-height: 58px;
+    color: #fff;
+}
+
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-prev {
+    right: calc(100% + 30px);
+    left: auto;
+}
+
+.dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+    left: calc(100% + 30px);
+    right: auto;
+}
+
+
+/* Navigation Bullets */
+
+.dt-advanced-carousel-wrapper .slick-dots {
+    position: relative;
+    bottom: auto;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots li {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 10px;
+    width: 10px;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots li button,
+.dt-advanced-carousel-wrapper .slick-dots li button:before {
+    font-size: 0;
+    height: 100%;
+    line-height: inherit;
+    margin-top: 0;
+    opacity: 1;
+    padding: 0;
+    width: 100%;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+    -webkit-transition: inherit;
+    transition: inherit;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-1 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-1 li.slick-active {
+    width: 25px;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li {
+    height: 5px;
+    width: 25px;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li.slick-active {
+    border-radius: 3px;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-3 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-3 li.slick-active {
+    border-radius: 0;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li {
+    height: 16px;
+    width: 16px;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-5 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li {
+    background-color: transparent;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-5 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li {
+    border: 1px solid;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-5 li.slick-active button,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li.slick-active button,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li {
+    border-color: transparent;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li.slick-active button,
+.dt-advanced-carousel-wrapper .slick-dots.style-5 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li.slick-active,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li.slick-active {
+    border-color: #000;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-5 li.slick-active button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-6 li.slick-active button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li button:before {
+    background-color: #000;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li button,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li button {
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-4 li.slick-active button:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-3 li,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li button:after,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li button:after {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-3 li button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li button:before {
+    background-color: #000;
+    left: auto;
+    right: 0;
+    width: 0;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-2 li.slick-active button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-3 li.slick-active button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li.slick-active button:before,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li.slick-active button:before {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.dt-advanced-carousel-wrapper .slick-dots.style-7 li button:after,
+.dt-advanced-carousel-wrapper .slick-dots.style-8 li button:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+}
+
+
+/* Responsive */
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 960px */
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-prev {
+        right: calc(100% + -25px);
+    }
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+        left: calc(100% + -25px);
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-prev,
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+        display: none !important;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Common Styles for the devices below 767px width */
+
+@media only screen and (max-width: 767px) {
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-prev {
+        right: calc(100% + 15px);
+    }
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+        left: calc(100% + 15px);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-prev,
+    .dt-arrow-vertical-middle .dt-advanced-carousel-wrapper .slick-arrow.slick-next {
+        display: none !important;
+    }
+}

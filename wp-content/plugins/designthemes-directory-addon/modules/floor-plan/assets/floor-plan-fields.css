@@ -1,0 +1,63 @@
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item>.dtdr-column:not(.dtdr-upload-media-items-container) {
+    margin-left: 0;
+    padding-right: 50px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-item-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    float: left;
+    width: 100%;
+    grid-column-gap: 2%;
+    padding-right: 50px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-item-content .dtdr-column {
+    margin: 0;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-upload-media-items-container {
+    display: grid;
+    grid-template-columns: 7fr 2fr 1fr 1fr;
+    float: left;
+    width: 100%;
+    grid-column-gap: 2%;
+    margin: 0;
+    align-items: center;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-upload-media-items-container input.uploadfieldurl {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-options {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row-reverse;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-options span.dtdr-remove-floorplan {
+    cursor: pointer;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-floorplan-box-options span.dtdr-sort-floorplan {
+    cursor: grab;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item .dtdr-upload-media-items-container input[type="button"] {
+    margin-right: 0;
+}

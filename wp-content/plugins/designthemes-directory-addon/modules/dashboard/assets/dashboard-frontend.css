@@ -1,0 +1,1580 @@
+ul.dtdr-dashboard-menus li a span,
+.dtdr-container input[type='submit'],
+.dtdr-container input[type='reset'],
+.dtdr-container input[type='button'],
+.dtdr-container button[type='button'],
+.dtdr-container button,
+.dtdr-container .button,
+.dtdr-container a.button,
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section div[class*="section-options"] span,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-image-preview-holder .dtdr-image-preview-tooltip,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li,
+.dtdr-dashboard-container .woocommerce-button.view,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li span,
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) span,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span,
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-item-wrapper {
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+
+/* Common Styles */
+
+.dtdr-upload-media-items:empty {
+    display: none;
+}
+
+
+/*Miscellaneous Style */
+
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item:not(:only-child):not(:last-child),
+.dtdr-my-reviews-item-holder .dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item:not(:only-child):not(:last-child) {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.dtdr-dashboard-container {
+    margin: auto;
+    width: calc(100% - 8rem);
+}
+
+.dtdr-dashboard-container footer#footer {
+    margin-top: 100px;
+}
+
+.dtdr-dashboard-container table td,
+.dtdr-dashboard-container table tbody th {
+    vertical-align: middle;
+}
+
+
+/*Default Button Style */
+
+.dtdr-dashboard-container .wp-editor-wrap .wp-editor-container {
+    margin-bottom: 20px;
+}
+
+#qt_dtdr_description_toolbar {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Write Style for respective elements alone */
+
+
+/*Dashboard Menus*/
+
+ul.dtdr-dashboard-menus {
+    list-style: none;
+    margin: 20px 0 0;
+}
+
+ul.dtdr-dashboard-menus li {
+    float: left;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 100%;
+}
+
+ul.dtdr-dashboard-menus li a {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    float: left;
+    hyphens: auto;
+    padding: 10px 15px 10px 65px;
+    position: relative;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+ul.dtdr-dashboard-menus li a span {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    min-width: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+
+/*Dashboard Section holder*/
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder {
+    background-color: #fff;
+    border: 1px solid;
+    float: left;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 100%;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashboard-notices:not(:empty) {
+    margin-bottom: 20px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashboard-notices ul {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashboard-notices.dtdr-warning-notice ul,
+.dtdr-dashbord-section-holder-content ul.dtdr-contactadmin-errorlist {
+    color: red;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashboard-notices.dtdr-warning-notice ul li:not(:last-child) {
+    margin: 0;
+    padding: 0;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder a[class*="dtdr-update-"].custom-button-style,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder a[class*="dtdr-add-"].custom-button-style {
+    margin: 0;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder a[class*="dtdr-update-"].custom-button-style span,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder a[class*="dtdr-add-"].custom-button-style span {
+    margin-right: 10px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter-label {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-holder-intro {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-title {
+    font-weight: bold;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-title:not(:only-child) {
+    border-right-style: solid;
+    border-right-width: 1px;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    word-break: normal;
+}
+
+
+/*Section Holder Content*/
+
+.dtdr-dashbord-section-holder-content {
+    padding-top: 10px;
+    position: relative;
+}
+
+.dtdr-dashbord-section-holder-content ul {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+
+/* .dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper {
+    display: inline-grid;
+} */
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li {
+    background-color: #fff;
+    border: 1px solid;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    line-height: normal;
+    padding: 10px 15px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li:last-child,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li:only-child {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span.dtdr-inbox-listing-user-email {
+    border-style: solid;
+    border-width: 0 1px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span.dtdr-inbox-listing-user-unread-count {
+    position: relative;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span.dtdr-inbox-listing-user-unread-count:before {
+    content: "\f06e";
+    float: right;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 8px;
+    margin-top: 1px;
+    position: relative;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li.active:not(.unread) span.dtdr-inbox-listing-user-unread-count:before {
+    font-weight: 400;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li.unread span.dtdr-inbox-listing-user-unread-count:before {}
+
+.dtdr-dashbord-section-holder-content>.dtdr-dashboard-option-item:only-child,
+.dtdr-dashbord-section-holder-content>.dtdr-dashboard-option-item:only-child .chosen-container,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content>.dtdr-dashboard-option-item:only-child {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-section-holder-content p:empty,
+.dtdr-dashbord-section-holder-content .dtdr-social-item-details-container:empty {
+    display: none;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-social-item-details-container:not(:empty) {
+    margin-bottom: 20px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-warning-notice p:only-child:last-child {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-dashbord-inbox-listing-title {
+    margin: 0 0 15px;
+}
+
+.dtdr-dashbord-section-holder-content div[class*="output-data-container"] {
+    margin: 0 10px;
+}
+
+.dtdr-dashbord-inbox-conversation-reply-list-wrapper ul.dtdr-dashbord-inbox-conversation-reply-list {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list,
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li,
+.dtdr-dashbord-inbox-conversation-reply-list-wrapper ul.dtdr-dashbord-inbox-conversation-reply-list li {
+    float: left;
+    width: 100%;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li>span {
+    display: flex;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.dtdr-dashbord-inbox-conversation-reply-list-wrapper ul.dtdr-dashbord-inbox-conversation-reply-list li>span {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li>span:before {
+    content: "\f073";
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    position: relative;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li a.dtdr-dashbord-inbox-conversation-reply-loader {
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    line-height: normal;
+    padding: 6px 10px;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper .dtdr-inbox-conversation-reply-submit {
+    float: right;
+    margin: 0;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper .dtdr-inbox-conversation-reply-submit>span {
+    margin-right: 10px;
+}
+
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper .dtdr-failure {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.dtdr-dashbord-section-holder-content .dtdr-social-item-details-container+.custom-button-style {
+    margin-top: 0;
+}
+
+.dtdr-dashbord-section-holder-content a[class*="dtdr-add-"] {
+    display: inline-block;
+}
+
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section {
+    background: #fff;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: calc(32% - 40px) calc(68% - 40px) 80px;
+}
+
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section div[class*="section-options"] {
+    display: flex;
+    flex-flow: row-reverse;
+    left: auto;
+    position: absolute;
+    right: 0px;
+}
+
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section .chosen-container {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section input[type='text'] {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single {
+    background: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: inherit;
+    font-size: 16px;
+    height: auto;
+    padding: 16px;
+    position: relative;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single:before,
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single:after {
+    -webkit-transition: 0.4s ease;
+    background-color: currentColor;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transition: 0.4s ease;
+    width: 12px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single:before {
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    right: 27px;
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single:after {
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    right: 18px;
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single.chosen-container-active .chosen-single:before {
+    right: 18px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single.chosen-container-active .chosen-single:after {
+    right: 26px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-drop {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 15px 25px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-search,
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-results {
+    padding: 0;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-search {
+    margin: 0 0 10px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-results {
+    margin: 0;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-results li {
+    font-size: 16px;
+    line-height: normal;
+    padding: 10px 6px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-search input[type="text"] {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single div {
+    display: none;
+}
+
+.dtdr-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"] {
+    text-align: right;
+    width: 115px;
+}
+
+.dtdr-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span:first-child,
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item .dtdr-announcements-box-options>span:first-child {
+    float: right;
+    margin-left: 10px;
+}
+
+.dtdr-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span.dtdr-remove-social-item,
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section div[class*="section-options"]>span.dtdr-remove-social-item,
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item .dtdr-announcements-box-options>span.dtdr-remove-announcements {
+    cursor: pointer;
+}
+
+.dtdr-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span.dtdr-sort-features,
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section div[class*="section-options"]>span.dtdr-sort-features,
+.dtdr-announcements-box-container .dtdr-announcements-box-item-holder .dtdr-announcements-box-item .dtdr-announcements-box-options>span.dtdr-sort-announcements {
+    cursor: grab;
+}
+
+.dtdr-dashbord-section-holder-content div[id*="section-to-clone"].hidden {
+    display: none;
+}
+
+
+/*Upload Items Container*/
+
+.dtdr-upload-media-items-container .dtdr-image-holder {
+    margin-bottom: 20px;
+}
+
+.dtdr-upload-media-items-container .dtdr-image-holder>img {
+    max-width: 150px;
+}
+
+.dtdr-upload-media-items-container input.uploadfieldurl {
+    margin-bottom: 10px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items {
+    display: inline-block;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li {
+    float: left;
+    margin: 0 20px 10px 0;
+    position: relative;
+    width: 150px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li input[readonly] {
+    width: 70%;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li input.media-attachment-titles {
+    margin-bottom: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li .dtdr-remove-media-item {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    left: 5px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 30px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li .media-attachment-titles {
+    margin: 10px 0;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li .dtdr-featured-media-item {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    left: 5px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 30px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li span {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li .dtdr-remove-media-item:hover,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-upload-media-items-container ul.dtdr-upload-media-items li .dtdr-featured-media-item:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/*Recent Activities Holder*/
+
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content:last-child {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content img {
+    margin-right: 20px;
+}
+
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content p {
+    border-right-style: solid;
+    border-right-width: 1px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-right: 12px;
+}
+
+
+/*Listing Container*/
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-item-wrapper {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-thumb:not(:empty) {
+    margin-bottom: 17px;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details {
+    float: left;
+    width: 100%;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details h5 {
+    margin: 0 0 8px;
+    padding-right: 15%;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-listing-description:not(:empty) {
+    margin-bottom: 14px;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container {
+    display: inline-block;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a {
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 4px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a:before,
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a:after {
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip] {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Hide the tooltip content by default */
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:before,
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+/* Position tooltip above the element */
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:before {
+    bottom: 120%;
+    color: #fff;
+    content: attr(data-tooltip);
+    font-size: 12px;
+    left: 50%;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-left: -60px;
+    padding: 7px;
+    position: absolute;
+    text-align: center;
+    width: 135px;
+}
+
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: 120%;
+    content: " ";
+    font-size: 0;
+    left: 50%;
+    line-height: 0;
+    margin-left: -5px;
+    position: absolute;
+    width: 0;
+}
+
+
+/* Show tooltip content on hover */
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:hover:before,
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a[data-tooltip]:hover:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-dashboard-status {
+    box-shadow: -1px 1px 5px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: normal;
+    padding: 3px 10px;
+    position: absolute;
+    right: -5px;
+    top: 13px;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-dashboard-status:after {
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-dashboard-status:before {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+
+/* Add Listing */
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item>input,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item>.chosen-container,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-dashboard-option-item-data>input,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-dashboard-option-item-data>.chosen-container {
+    margin-bottom: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item:last-child:not(:only-child) {
+    margin-bottom: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item>div.dtdr-dashboard-option-item-data>input:only-child:last-child {
+    margin-bottom: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div.dtdr-dashboard-option-item-data div[class*="-item-holder"].ui-sortable:empty+.custom-button-style {
+    margin-top: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"]:not(:last-child),
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] .dtdr-page-template-module-container .selection-box {
+    margin-bottom: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] .dtdr-page-template-module-container .chosen-container {
+    margin-bottom: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] .selection-box:before {
+    display: none;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] .dtdr-mls-number {
+    margin-bottom: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .chosen-container-multi .chosen-choices {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .chosen-container-multi.chosen-container .chosen-drop {
+    box-shadow: none;
+    padding: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr_amenities_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr_amenities_list .dtdr-dashboard-option-item-list:not(:last-child) {
+    margin-right: 20px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item label[for*="dtdr_amenity_"] {
+    display: inline;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item label[for*="dtdr_amenity_"]:not(:last-child) {
+    margin-right: 20px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] input[type="checkbox"],
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details input[type="checkbox"],
+.dtdr-dashboard-addincharge-form .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item input[type="checkbox"] {
+    opacity: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] input[type="checkbox"]~label,
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details input[type="checkbox"]~label,
+.dtdr-dashboard-addincharge-form .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item input[type="checkbox"]~label {
+    cursor: default;
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] input[type="checkbox"]~label:before,
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details input[type="checkbox"]~label:before,
+.dtdr-dashboard-addincharge-form .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item input[type="checkbox"]~label:before {
+    -webkit-transition: .2s;
+    border: 1px solid currentcolor;
+    border-radius: 1px;
+    content: "";
+    height: 15px;
+    left: -25px;
+    margin-top: 0;
+    position: absolute;
+    top: 3px;
+    transition: .2s;
+    width: 15px;
+    z-index: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] input[type="checkbox"]:checked~label:before,
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details input[type="checkbox"]:checked~label:before,
+.dtdr-dashboard-addincharge-form .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item input[type="checkbox"]:checked~label:before {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(40deg);
+    -webkit-transform-origin: 100% 100%;
+    backface-visibility: hidden;
+    background: none;
+    border-bottom: 1px solid currentcolor;
+    border-left: 1px solid transparent;
+    border-right: 1px solid currentcolor;
+    border-top: 1px solid transparent;
+    height: 16px;
+    left: -25px;
+    top: 1px;
+    transform: rotate(40deg);
+    transform-origin: 100% 100%;
+    width: 8px;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item:not(.hidden),
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item:not(.hidden) {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item .dtdr-attachments-box-options,
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item .dtdr-attachments-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-left: 15px;
+    width: 85px;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item .dtdr-attachments-box-options>span:first-child,
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item .dtdr-attachments-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item .dtdr-attachments-box-options span.dtdr-remove-attachments,
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item .dtdr-attachments-box-options span.dtdr-remove-attachments {
+    cursor: pointer;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item .dtdr-attachments-box-options span.dtdr-sort-attachments,
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item .dtdr-attachments-box-options span.dtdr-sort-attachments {
+    cursor: grab;
+}
+
+.dtdr-add-listing .dtdr-attachments-box-item .dtdr-column:first-child #dtdr_media_attachments_titles,
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item .dtdr-column:first-child .dtdr_media_attachments_titles {
+    width: calc(100% - 4.5%);
+}
+
+
+/* Features Box */
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item {
+    background: #fff;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-column:not(.dtdr-upload-media-items-container) {
+    margin: 0 2% 0 0;
+    width: calc(49.5% - 30px);
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-column:not(.first) {
+    margin-right: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-features-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+    left: auto;
+    position: absolute;
+    right: 0px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-features-box-options>span,
+.dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section div[class*="section-options"]>span {
+    margin-left: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-features-box-options span.dtdr-remove-features {
+    cursor: pointer;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-features-box-options span.dtdr-sort-features {
+    cursor: grab;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-column.dtdr-upload-media-items-container {
+    align-items: center;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 7fr 2fr 2fr .2fr;
+    width: calc(100% - 50px);
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item .dtdr-column.dtdr-upload-media-items-container input[type="text"] {
+    margin-bottom: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item input[type="button"] {
+    margin: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-image-preview-holder a {
+    position: relative;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-image-preview-holder a .dtdr-image-preview-tooltip {
+    bottom: 100%;
+    height: auto;
+    left: -15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-image-preview-holder a:hover .dtdr-image-preview-tooltip {
+    left: 0;
+    opacity: 1;
+}
+
+
+/*reviews-container*/
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    flex: 1 1 100%;
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing .dtdr-ratings-holder span {
+    font-size: 0;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing .dtdr-ratings-holder span:before {
+    font-size: initial;
+    margin: 0 5px 0 0;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing p:last-child {
+    margin-bottom: 0;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing>* {
+    margin-bottom: 10px;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing ul.dtdr-dashbord-reviews-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing ul.dtdr-dashbord-reviews-gallery li {
+    margin: 0 10px;
+}
+
+.dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing ul.dtdr-dashbord-reviews-gallery li img {
+    width: 100px;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail {
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail>h4 {
+    font-size: 16px;
+    margin-left: -55px;
+    padding: 10px 0 16px;
+    text-align: center;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-value,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-title {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-label,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-sub-title {
+    float: left;
+    padding: 13px;
+    text-align: center;
+    width: 100%;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-sub-title:empty {
+    display: none;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail:not(.dtdr-seller_package):not(.dtdr-purchased_date):not(.dtdr-expiry_date) {
+    padding-left: 55px;
+    position: relative;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail:not(.dtdr-seller_package):not(.dtdr-purchased_date):not(.dtdr-expiry_date) span.dtdr-dashboard-package-detail-value {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    min-width: 50px;
+    padding: 0 10px;
+    position: absolute;
+}
+
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail:not(.dtdr-seller_package):not(.dtdr-purchased_date):not(.dtdr-expiry_date) span.dtdr-dashboard-package-detail-label {
+    padding-right: 20px;
+    text-align: left;
+}
+
+
+/*Dashboard - Available Package Listing*/
+
+.dtdr-dashbord-container div[class*="-output-data-container"] div.dtdr-package-output-data-holder[data-applyisotope*="true"] .dtdr-packages-container .dtdr-packages-item-container {
+    margin: 0 -10px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper {
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-thumb:not(:empty) {
+    margin-bottom: 17px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details {
+    float: left;
+    width: 100%;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details>*:not(:last-child) {
+    margin: 0 0 8px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-proceed-button a.custom-button-style {
+    margin-left: 0;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-packagelist-description:empty {
+    display: none;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-item-pricing-details {
+    margin-bottom: 8px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-proceed-button a.custom-button-style span {
+    margin-right: 10px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-purchased,
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-active {
+    box-shadow: -1px 1px 6px 0 rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 3px 10px;
+    position: absolute;
+    right: -5px;
+    text-transform: capitalize;
+    top: 13px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-purchased:before {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-purchased:after {
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-active {
+    left: -5px;
+    right: auto;
+    top: 13px;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-active:before {
+    border-left: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    width: 0;
+}
+
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-active:after {
+    border-left: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    width: 0;
+}
+
+
+/*Contact Admin Form*/
+
+form.dtdr-dashboard-contactadmin-form textarea.dtdr-contactadmin-message {
+    margin-bottom: 0;
+}
+
+form.dtdr-dashboard-contactadmin-form ul[class*="dtdr-contactadmin-"] li {
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+form.dtdr-dashboard-contactadmin-form .custom-button-style span {
+    margin-right: 10px;
+}
+
+
+/*My Incharges*/
+
+.dtdr-dashbord-container .dtdr-my-incharges-table .dtdr-image-holder {
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.dtdr-dashbord-container .dtdr-my-incharges-table td,
+.dtdr-dashbord-container .dtdr-my-incharges-table tbody th {
+    padding: 10px;
+}
+
+
+/*Announcement*/
+
+.dtdr-dashbord-container .dtdr-dashbord-announcements-listing table {
+    display: inline-block;
+    overflow-x: scroll;
+    overflow: auto;
+}
+
+
+/* Other Colors */
+
+ul.dtdr-dashboard-menus li a span,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-value,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-title,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter-label,
+.dtdr-dashbord-section-holder-content a[class*="dtdr-add-"],
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-dashboard-status,
+.dtdr-dashbord-container .dtdr-my-listings-container .dtdr-listing-details .dtdr-mylisting-options-container>a,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li:hover,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li.dtdr-active,
+.dtdr-dashboard-container .woocommerce-button.view,
+.custom-button-style,
+.custom-button-style:hover,
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-proceed-button a.custom-button-style,
+.dtdr-dashbord-ads-listing table.dtdr-custom-table tbody tr td:last-child a:hover,
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li.duration span,
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li.total-amount span {
+    color: #fff;
+}
+
+ul.dtdr-dashboard-menus li,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail,
+.dtdr-dashboard-user-package-details .dtdr-dashboard-package-detail span.dtdr-dashboard-package-detail-sub-title,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter,
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content {
+    background: #f7f7f7;
+}
+
+.dtdr-dashbord-container .dtdr-dashbord-section-holder,
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-title,
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-search input[type="text"],
+.dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-holder-intro,
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-single,
+.dtdr-dashbord-section-holder-content .chosen-container-single .chosen-drop,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .chosen-container-multi .chosen-choices,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] label:before,
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details label:before,
+.dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-floorplan-box-container .dtdr-floorplan-box-item:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-attachments-box-item-holder .dtdr-attachments-box-item:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-features-box-item:not(:only-child):not(:last-child),
+.dtdr-my-reviews-item-holder .dtdr-dashbord-reviews-listing-wrapper .dtdr-dashbord-reviews-listing:not(:only-child):not(:last-child),
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item:not(:only-child):not(:last-child),
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper,
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li,
+.dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content p,
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .chosen-container-multi.chosen-container .chosen-drop,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li,
+.dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span {
+    border-color: #e3e3e3;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item div[class*="dtdr-dashboard-option-item"] input[type="checkbox"]~label:before,
+.dtdr-my-ads-container .dtdr-dashbord-section-holder-content .dtdr-dashbord-ads-addnew-wrapper .dtdr-dashbord-ad-details input[type="checkbox"]~label:before,
+.dtdr-dashboard-addincharge-form .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item label:before {
+    color: #e3e3e3;
+}
+
+.dtdr-dashbord-ads-addnew-wrapper ul.dtdr-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) span {
+    background: #e3e3e3;
+}
+
+
+/*----*****---- << Small Monitor >> ----*****----*/
+
+
+/* Note: Design for a width of 1440px */
+
+@media only screen and (min-width:1281px) and (max-width:1440px) {
+    .dtdr-dashbord-container .dtdr-my-incharges-container table {
+        font-size: 13px;
+    }
+    .dtdr-dashbord-container .dtdr-my-inbox-container .dtdr-my-inbox-item-holder .dtdr-one-half {
+        width: 35%;
+    }
+    .dtdr-dashbord-container .dtdr-my-inbox-container .dtdr-my-inbox-item-holder .dtdr-one-half.first {
+        width: 60%;
+    }
+    .dtdr-dashbord-container .dtdr-my-inbox-container .dtdr-my-inbox-item-holder .dtdr-column .dtdr-dashbord-section-holder {
+        margin-bottom: 0;
+    }
+    .dtdr-dashbord-container div[class*="-apply-isotope"] .dtdr-column.dtdr-packages-item-wrapper.dtdr-one-third {
+        clear: none;
+        width: calc(100% - 30px);
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 960px */
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .dtdr-dashboard-container {
+        width: calc(100% - 4rem);
+    }
+    .dtdr-dashbord-container div[class*="-apply-isotope"] .dtdr-column.dtdr-packages-item-wrapper.dtdr-one-third {
+        clear: none;
+        width: calc(100% - 30px);
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 0;
+        margin-bottom: 30px;
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section .selection-box {
+        width: calc(100% - 60px);
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section input[type="text"] {
+        margin-top: 15px;
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section:not(:last-child) {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e3e3e3;
+        padding-bottom: 30px;
+    }
+    .dtdr-dashbord-container .dtdr-my-inbox-container .dtdr-my-inbox-item-holder .dtdr-column.dtdr-one-half {
+        clear: none;
+        margin: 0;
+        width: 100%;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table,
+    .dtdr-dashbord-container table.dtdr-user-claimed-posts-table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder {
+        padding: 15px;
+    }
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter-label,
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-statistics-counter {
+        padding: 5px;
+    }
+    .dtdr-dashbord-section-holder-content .dtdr-dashbord-statistics-counter-wrapper .dtdr-one-third:last-child {
+        margin-bottom: 10px;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content img {
+        margin: 0 15px 15px 0;
+        width: 75px;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content p {
+        border: none;
+        float: right;
+        margin: 0 0 10px;
+        padding: 0;
+        width: calc(100% - 100px);
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content .dtdr-dashbord-recent-activites-datetime {
+        float: left;
+        width: 100%;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table {
+        font-size: 12px;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table td,
+    .dtdr-dashbord-container .dtdr-my-incharges-container table th {
+        word-break: keep-all;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table thead,
+    .dtdr-dashbord-container .dtdr-my-incharges-container table tbody {
+        width: 100%;
+    }
+    .dtdr-column.dtdr-packages-item-wrapper.dtdr-one-third {
+        clear: none;
+        width: calc(100% - 30px) !important;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    .dtdr-dashboard-container {
+        width: calc(100% - 4rem);
+    }
+    .dtdr-dashbord-section-holder-content .dtdr-column {
+        margin-bottom: 0;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table {
+        display: inline-block;
+        overflow: scroll;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table td,
+    .dtdr-dashbord-container .dtdr-my-incharges-container table th {
+        word-break: keep-all;
+    }
+    .dtdr-dashbord-container .dtdr-my-incharges-container table thead,
+    .dtdr-dashbord-container .dtdr-my-incharges-container table tbody {
+        width: 100%;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 25px;
+        grid-template-columns: 60px repeat(auto-fit, 50%);
+    }
+    .dtdr-dashbord-container .dtdr-my-inbox-container .dtdr-my-inbox-item-holder .dtdr-column.dtdr-one-half {
+        margin: 0;
+    }
+    .dtdr-dashbord-container table.dtdr-user-claimed-posts-table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content img {
+        margin: 0 15px 0 0;
+        width: 75px;
+    }
+    .dtdr-dashbord-section-holder-content .dtdr-dashbord-statistics-counter-wrapper .dtdr-one-third.dtdr-column {
+        clear: none;
+        margin: 0 0 0 2%;
+        margin-bottom: 20px;
+        width: 32%;
+    }
+    .dtdr-dashbord-section-holder-content .dtdr-dashbord-statistics-counter-wrapper .dtdr-one-third.dtdr-column.first {
+        margin-left: 0;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    .dtdr-dashboard-container {
+        width: calc(100% - 2.5rem);
+    }
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder {
+        padding: 20px;
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 0;
+        margin-bottom: 30px;
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section .selection-box {
+        width: calc(100% - 60px);
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section input[type="text"] {
+        margin-top: 15px;
+    }
+    .dtdr-dashbord-section-holder-content .ui-sortable .dtdr-social-item-section:not(:last-child) {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e3e3e3;
+        padding-bottom: 30px;
+    }
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-holder-intro {
+        flex-wrap: wrap;
+    }
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-title:not(:only-child) {
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        margin: 0 0 8px;
+        padding: 0px 0 8px;
+    }
+    .dtdr-dashbord-container .dtdr-dashbord-section-holder .dtdr-dashbord-section-title-notes {
+        float: left;
+        width: 100%;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content {
+        display: block;
+        float: left;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content img {
+        margin: 0 15px 0 0;
+        width: 75px;
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content p {
+        border: none;
+        float: right;
+        margin: 0 0 10px;
+        padding: 0;
+        width: calc(100% - 100px);
+    }
+    .dtdr-dashbord-recent-activites-holder .dtdr-dashbord-recent-activites-content .dtdr-dashbord-recent-activites-datetime {
+        float: right;
+        font-size: 12px;
+        text-align: right;
+        width: 100%;
+    }
+    .dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li {
+        text-align: center;
+        width: 100%;
+    }
+    .dtdr-dashbord-section-holder-content ul.dtdr-dashbord-inbox-listing-messages-wrapper li span.dtdr-inbox-listing-user-email {
+        border-width: 1px 0;
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper {
+        display: grid;
+    }
+    .dtdr-dashbord-section-holder-content ul.dtdr-dashbord-reviews-listing-options-wrapper li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.customize-control-dt-description .dt-description {
+  font-style: italic;
+}
+
+.customize-control-dt-description a.button {
+  margin-top: 5px;
+  font-style: normal;
+}
+
+.customize-control-dt-description p {
+  margin: 0;
+  cursor: initial;
+}

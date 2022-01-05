@@ -1,0 +1,896 @@
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 10px;
+    padding-bottom: 0;
+}
+
+ins {
+    text-decoration: none;
+    background: none;
+    color: inherit;
+}
+
+.dtdr-hr-invisible {
+    height: 30px;
+    width: 100%;
+    float: left;
+}
+
+*[class*="dtdr-empty-space-"] {
+    width: 100%;
+    float: left;
+}
+
+.dtdr-empty-space-5 {
+    margin-bottom: 5px;
+}
+
+.dtdr-empty-space-10 {
+    margin-bottom: 10px;
+}
+
+.dtdr-empty-space-15 {
+    margin-bottom: 15px;
+}
+
+.dtdr-empty-space-20 {
+    margin-bottom: 20px;
+}
+
+.dtdr-empty-space-25 {
+    margin-bottom: 25px;
+}
+
+.dtdr-empty-space-30 {
+    margin-bottom: 30px;
+}
+
+.dtdr-empty-space-35 {
+    margin-bottom: 35px;
+}
+
+.dtdr-empty-space-40 {
+    margin-bottom: 40px;
+}
+
+.dtdr-empty-space-45 {
+    margin-bottom: 45px;
+}
+
+.dtdr-empty-space-50 {
+    margin-bottom: 50px;
+}
+
+
+/* Transitions */
+
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a span,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a span,
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a,
+.dtdr-packages-item-wrapper,
+.dtdr-packages-item-wrapper:before,
+.dtdr-packages-item-wrapper .dtdr-packagelist-features li:before,
+.dtdr-packages-item-wrapper.type1 .dtdr-packagelist-view-details-button span,
+.dtdr-packages-item-wrapper.type1 .dtdr-packagelist-view-details-button span *,
+.dtdr-packages-item-wrapper.type1 .dtdr-item-status-details .dtdr-proceed-button .custom-button-style span,
+.dtdr-packages-item-wrapper.type1 .dtdr-packagelist-view-details-button,
+.dtdr-packages-item-wrapper.type1 .dtdr-item-status-details .dtdr-proceed-button .custom-button-style,
+.dtdr-packages-item-wrapper.type1 .dtdr-item-status-details .dtdr-proceed-button .added_to_cart:before,
+.dtdr-packages-item-wrapper.type2 .dtdr-packagelist-view-details .custom-button-style span,
+.dtdr-packages-item-wrapper.type3 .dtdr-item-status-details .dtdr-purchased,
+.dtdr-listings-item-wrapper,
+.dtdr-listings-item-wrapper .dtdr-listings-taxonomy-container li a:before,
+.dtdr-listings-item-wrapper .dtdr-listings-item-bottom-section-content>div .dtdr-listings-price-container .dtdr-listings-price-label-holder ins,
+.dtdr-listings-item-wrapper.type4 .dtdr-listings-item-bottom-section>div.dtdr-listings-item-bottom-pricing-holder .custom-button-style:before,
+.dtdr-listings-item-wrapper.type5 .dtdr-listings-item-top-section div.dtdr-listings-taxonomy-container ul.dtdr-listings-taxonomy-list li>a span,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section .dtdr-listings-taxonomy-list,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-feature-image-holder:before,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-image-gallery .swiper-slide:before,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content>div,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section>div,
+.dtdr-listings-item-wrapper.type8 .dtdr-listings-features-box-container>div,
+.dtdr-sf-orderby-field-holder ul.dtdr-sf-orderby-list li a,
+.dtdr-sf-others-field-holder div.dtdr-sf-others-list,
+.dtdr-sf-others-field-holder div.dtdr-sf-others-list div,
+.dtdr-user-list-item.type1,
+.dtdr-user-list-item.type1 .dtdr-user-item-meta-data,
+.dtdr-user-list-item.type1 .dtdr-user-sociallinks-list,
+.dtdr-user-list-item.type3 .dtdr-user-contactdetails-list li span,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-item-ad-section,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-featured-item-container,
+.dtdr-listings-item-wrapper.type1.has-post-thumbnail .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content .dtdr-listings-utils-item-holder .dtdr-listings-utils-item:first-child>* span,
+.dtdr-listings-item-wrapper.type1:not(.has-post-thumbnail) .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content .dtdr-listings-utils-item-holder .dtdr-listings-utils-item:first-child>* span,
+.dtdr-listings-item-wrapper.type2 .dtdr-listings-item-top-section div.dtdr-listings-item-ad-section:before,
+.dtdr-listings-item-wrapper.type2 .dtdr-listings-item-top-section div.dtdr-listings-item-ad-section:after,
+.dtdr-listings-item-wrapper.type2 .dtdr-listings-item-top-section .dtdr-listings-featured-item-container a:after,
+.dtdr-listings-item-wrapper.type2 .dtdr-listings-item-top-section .dtdr-listings-featured-item-container a:before,
+.dtdr-listings-item-wrapper.type3 .dtdr-listings-item-top-section div.dtdr-listings-item-ad-section:before,
+.dtdr-listings-item-wrapper.type3 .dtdr-listings-item-top-section div.dtdr-listings-featured-item-container a:before,
+.dtdr-listings-item-wrapper.type3.dtdr-list .dtdr-listings-item-top-section div.dtdr-listings-item-ad-section:after,
+.dtdr-listings-item-wrapper.type3.dtdr-list .dtdr-listings-item-top-section div.dtdr-listings-featured-item-container a:after,
+.dtdr-listings-item-wrapper.type3 .dtdr-listings-item-bottom-section-content ul.dtdr-listings-taxonomy-list li a span.dtdr-listings-taxonomy-image:before,
+.dtdr-listings-item-wrapper.type4 .dtdr-listings-item-top-section div.dtdr-listings-featured-item-container a:before,
+.dtdr-listings-item-wrapper.type4 .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content>div:not(.dtdr-listings-taxonomy-container) a.dtdr-listings-utils-favourite-item span,
+.dtdr-listings-item-wrapper.type5 .dtdr-listings-item-top-section .dtdr-listings-featured-item-container a:before,
+.dtdr-listings-item-wrapper.type5 .dtdr-listings-item-top-section .dtdr-listings-featured-item-container a:after,
+.dtdr-listings-item-wrapper.type5 .dtdr-listings-item-top-section div.dtdr-listings-taxonomy-container ul.dtdr-listings-taxonomy-list li>a:before,
+.dtdr-listings-item-wrapper.type5 .dtdr-listings-item-bottom-section-content>div .dtdr-listings-utils-item-holder [class*="dtdr-listings-utils-"] a.dtdr-listings-utils-favourite-item span,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section .dtdr-listings-utils-item-holder a.dtdr-listings-utils-favourite-item span,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-top-section div.dtdr-listings-item-ad-section,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-top-section div.dtdr-listings-featured-item-container,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section .dtdr-listings-taxonomy-list li a span,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section .dtdr-listings-taxonomy-list li a span:before,
+.dtdr-listings-item-wrapper.type6 .dtdr-listings-item-bottom-section .dtdr-listings-taxonomy-list li a span:after,
+.dtdr-listings-item-wrapper.type7 .dtdr-listings-item-bottom-section .dtdr-listings-item-title .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list a:after,
+.dtdr-listings-item-wrapper.type7 .dtdr-listings-item-top-section .dtdr-listings-item-ad-section,
+.dtdr-listings-item-wrapper.type7 .dtdr-listings-item-top-section .dtdr-listings-featured-item-container,
+.dtdr-listings-item-wrapper.type8 .dtdr-listings-item-bottom-section ul.dtdr-listings-taxonomy-list li a:after,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section,
+.dtdr-listing-taxonomy-item.type4,
+.dtdr-listing-taxonomy-item.type4 .dtdr-listing-taxonomy-starting-price,
+.dtdr-listing-taxonomy-item.type5 .dtdr-category-total-items a:before,
+.dtdr-listing-taxonomy-item.type7 .dtdr-category-total-items a:before,
+.dtdr-listing-taxonomy-item.type7 .dtdr-listing-taxonomy-starting-price:after,
+.dtdr-listings-utils-container .dtdr-listings-utils-item.dtdr-listings-utils-print .dtdr-listings-utils-print-item span,
+.comment-form .dtdr-comment-form-fields-holder .comment-form-media span:hover input#dtdr_media+label,
+.comment-form .dtdr-comment-form-fields-holder .comment-form-media span:hover input#dtdr_media+label:before,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon span,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author span,
+.dtdr-listings-nearby-places-container .dtdr-listings-nearby-places-item .dtdr-listings-nearby-places-image,
+.dtdr-listings-social-share-container .dtdr-listings-social-share-list,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list,
+[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li a span,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li>span,
+.dtdr-listings-social-share-container.type1 .dtdr-listings-social-share-list li a span {
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.dtdr-container input[type='submit'],
+.dtdr-container input[type='reset'],
+.dtdr-container input[type='button'],
+.dtdr-container button[type='button'],
+.dtdr-container button:not(.dismissButton),
+.dtdr-container .button,
+.dtdr-container a.button,
+form.lidd_mc_form .lidd_mc_input input[type="submit"],
+.custom-button-style,
+.dtdr-dashboard-container .woocommerce-button.view,
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-proceed-button a.custom-button-style,
+.dtdr-packages-item-wrapper.type2 .dtdr-item-status-details .added_to_cart,
+.dtdr-packages-item-wrapper.type3 .dtdr-item-status-details .added_to_cart,
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper .dtdr-inbox-conversation-reply-submit,
+.single-dtdr_packages .dtdr-payment-details a.added_to_cart,
+.dtdr-listings-address-directions {
+    font-size: 16px;
+    padding: 19px 40px;
+    letter-spacing: normal;
+    font-weight: 600;
+    margin: 20px 5px 0 0;
+    text-transform: capitalize;
+    font-family: unset;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dtdr-dashboard-container .woocommerce-button.view {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.dtdr-container {
+    margin: auto;
+}
+
+.dtdr-container .custom-button-style {
+    margin-top: 0;
+}
+
+.custom-button-style span {
+    margin-right: 10px;
+}
+
+.ui-selectable-helper,
+.ui-sortable-helper {
+    border: none !important;
+}
+
+.dtdr-no-margin-bottom p,
+.dtdr-no-margin-bottom .elementor-widget-dtdr-widget-sp-average-rating .dtdr-listings-average-rating-container,
+.dtdr-no-margin-bottom .elementor-widget-container {
+    margin-bottom: 0;
+    line-height: normal;
+    display: block;
+}
+
+
+/*--------------------------------------------------------------
+	2.0 - Columns
+--------------------------------------------------------------*/
+
+.dtdr-column {
+    margin: 0 0 0 2%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+
+.dtdr-column.first {
+    clear: both;
+    margin-left: 0;
+}
+
+.dtdr-one-column {
+    width: 100%;
+}
+
+.dtdr-one-half {
+    width: 49%;
+}
+
+.dtdr-one-third {
+    width: 32%;
+}
+
+.dtdr-two-third {
+    width: 66%;
+}
+
+.dtdr-one-fourth {
+    width: 23.5%;
+}
+
+.dtdr-three-fourth {
+    width: 74.5%;
+}
+
+.dtdr-one-fifth {
+    width: 18.4%;
+}
+
+.dtdr-two-fifth {
+    width: 38.8%;
+}
+
+.dtdr-three-fifth {
+    width: 59.2%;
+}
+
+.dtdr-four-fifth {
+    width: 79.6%;
+}
+
+.dtdr-one-sixth {
+    width: 15%;
+}
+
+.dtdr-two-sixth {
+    width: 32%;
+}
+
+.dtdr-three-sixth {
+    width: 49%;
+}
+
+.dtdr-four-sixth {
+    width: 66%;
+}
+
+.dtdr-five-sixth {
+    width: 83%;
+}
+
+.dtdr-column.wpb_column.dtdr-one-fifth {
+    width: 18.4%;
+}
+
+.wpb_column.dtdr-one-fifth {
+    width: 20%;
+}
+
+.wpb_column.dtdr-two-fifth {
+    width: 40%;
+}
+
+.wpb_column.dtdr-three-fifth {
+    width: 60%;
+}
+
+.dtdr-one-half iframe,
+.dtdr-one-third iframe,
+.dtdr-one-fourth iframe,
+.dtdr-three-fourth iframe,
+.dtdr-two-third iframe,
+iframe {
+    max-width: 100%;
+}
+
+.dtdr-column.no-space {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.dtdr-column.no-space.dtdr-one-fourth {
+    width: 24.982%;
+}
+
+.dtdr-column.no-space.dtdr-one-third {
+    width: 33.333333%;
+}
+
+.dtdr-column.no-space.dtdr-one-half {
+    width: 50%;
+}
+
+.dtdr-column.no-space.dtdr-one-fifth,
+.wpb_column.no-space.dtdr-one-fifth {
+    width: 20%;
+}
+
+.dtdr-column.no-space.dtdr-one-sixth {
+    width: 16.666%;
+}
+
+.dtdr-column.no-space.dtdr-three-fourth {
+    width: 75%;
+}
+
+.dtdr-column.no-space.dtdr-two-third {
+    width: 66.666666%;
+}
+
+.dtdr-column.no-space.dtdr-four-fifth,
+.wpb_column.no-space.dtdr-four-fifth {
+    width: 80%;
+}
+
+.dtdr-column.no-space.dtdr-three-fifth,
+.wpb_column.no-space.dtdr-three-fifth {
+    width: 60%;
+}
+
+.dtdr-column.no-space.dtdr-two-fifth,
+.wpb_column.no-space.dtdr-two-fifth {
+    width: 40%;
+}
+
+.dtdr-column.no-space.dtdr-two-sixth {
+    width: 33.2%;
+}
+
+.dtdr-column.no-space.dtdr-three-sixth {
+    width: 49.98%;
+}
+
+.dtdr-column.no-space.dtdr-four-sixth {
+    width: 66.4%;
+}
+
+.dtdr-column.no-space.dtdr-five-sixth {
+    width: 83%;
+}
+
+
+/*--------------------------------------------------------------
+	Miscellaneous
+--------------------------------------------------------------*/
+
+#dtdr-addlist-map-holder,
+.dtdr-listings-map-holder,
+.dtdr-listing-output-map {
+    width: 100%;
+    height: 400px;
+}
+
+.dtdr-hidden {
+    display: none;
+}
+
+
+/*--------------------------------------------------------------
+	Ajax Pagination
+--------------------------------------------------------------*/
+
+.dtdr-pagination.dtdr-ajax-pagination {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers,
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li {
+    float: none;
+    display: inline-block;
+    margin: 0 0 2px;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination .prev-post,
+.dtdr-pagination.dtdr-ajax-pagination .next-post {
+    width: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a,
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li span,
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li a {
+    border: 2px solid;
+    display: inline-block;
+    float: none;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li span,
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li a:hover,
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a:hover,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a:hover {
+    background: none;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li:focus,
+.dtdr-pagination.dtdr-ajax-pagination ul.page-numbers li:hover {
+    outline: none;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a {
+    font-size: 0;
+}
+
+.dtdr-pagination.dtdr-ajax-pagination .prev-post a span,
+.dtdr-pagination.dtdr-ajax-pagination .next-post a span {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+
+/* Carousel Styles */
+
+div[class*="-output-data-container"] {
+    position: relative;
+}
+
+div[class*="-output-data-container"] .dtdr-ajax-load-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .8);
+    z-index: 2;
+}
+
+div[class*="-output-data-container"].dtdr-content-scroll .dtdr-ajax-load-image,
+div[class*="-output-data-container"].dtdr-search-list-items .dtdr-ajax-load-image {
+    opacity: 0;
+}
+
+@-webkit-keyframes rotate-forever {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-forever {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+div[class*="-output-data-container"]:not(.dtdr-content-scroll) .dtdr-ajax-load-image .dtdr-loader-inner {
+    -webkit-animation-duration: .75s;
+    -moz-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotate-forever;
+    -moz-animation-name: rotate-forever;
+    animation-name: rotate-forever;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+    height: 60px;
+    width: 60px;
+    border: 5px dashed currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-container"] div[class*="-output-data-holder"],
+div[class*="-output-data-container"] div.dtdr-package-output-data-holder[data-applyisotope*="true"] {
+    margin: 0 -30px;
+}
+
+div[class*="-output-data-container"][data-enablecarousel*="true"] div[class*="package-output-data-holder"] {
+    margin: 0;
+}
+
+div[class*="-output-data-container"] div[data-applyisotope*="true"] {
+    margin: 0 -45px;
+}
+
+div[class*="-output-data-container"] .swiper-slide.type1 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type2 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type4 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type6 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type8 .dtdr-listings-image-gallery-holder .swiper-wrapper {
+    height: auto !important;
+}
+
+div[class*="-output-data-container"] .swiper-slide.type3 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type5 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type7 .dtdr-listings-image-gallery-holder .swiper-wrapper,
+div[class*="-output-data-container"] .swiper-slide.type9 .dtdr-listings-image-gallery-holder .swiper-wrapper {
+    height: 100% !important;
+}
+
+div[class*="-output-data-container"] .swiper-slide .dtdr-listings-image-gallery-holder .swiper-slide {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+}
+
+div[class*="-output-data-container"] div[data-applyisotope*="true"] .dtdr-one-column.dtdr-column {
+    padding: 0 15px;
+}
+
+
+/* div[class*="-output-data-container"] div[data-applyisotope*="true"] .dtdr-listings-container.dtdr-listings-item-apply-isotope {
+    margin: 0 20px;
+} */
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.swiper-container.swiper-container-fade .swiper-wrapper .swiper-slide {
+    opacity: 0 !important;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.swiper-container.swiper-container-fade .swiper-wrapper .swiper-slide.swiper-slide-active {
+    opacity: 1 !important;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-listings-container,
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-packages-container {
+    margin: 0 30px;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-listings-container.swiper-container {
+    margin: 0 -20px;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.swiper-container {
+    padding: 0 20px 65px;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.swiper-container .swiper-wrapper .dtdr-column {
+    margin-left: 0;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-packages-container.swiper-container {
+    padding: 0 0 45px;
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-packages-container.swiper-container .swiper-wrapper .dtdr-packages-item-wrapper {
+    box-shadow: none;
+}
+
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-packages-container.swiper-container .swiper-wrapper .dtdr-column.type2,
+div[class*="-output-data-container"] div[class*="-output-data-holder"]>.dtdr-packages-container.swiper-container .swiper-wrapper .dtdr-column.type3 {
+    width: 100%;
+    float: left;
+}
+
+div[class*="-output-data-container"].dtdr-listings-sidebar-widget div[class*="-output-data-holder"]>.dtdr-listings-container {
+    margin: 0 30px;
+    padding: 0;
+}
+
+div[class*="-output-data-container"].dtdr-listings-sidebar-widget div[class*="-output-data-holder"]>.dtdr-listings-container .dtdr-listings-item-wrapper {
+    box-shadow: none;
+}
+
+
+/* Bullet Pagination */
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder .dtdr-swiper-bullet-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+}
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder .dtdr-swiper-bullet-pagination {
+    margin: 0 0 15px;
+    position: static;
+    cursor: auto;
+    text-align: center;
+}
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder .dtdr-swiper-bullet-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder .dtdr-swiper-bullet-pagination.swiper-pagination-bullets .swiper-pagination-bullet:hover {
+    opacity: 1;
+}
+
+div[class*="-output-data-container"] .dtdr-swiper-pagination-holder .dtdr-swiper-bullet-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active {
+    width: 25px;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+
+/* Arrow Pagination */
+
+.dtdr-swiper-arrow-pagination {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dtdr-swiper-arrow-pagination a {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0;
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.dtdr-swiper-arrow-pagination a:before {
+    position: relative;
+    content: "\f2ea";
+    display: block;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 24px;
+}
+
+.dtdr-swiper-arrow-pagination a:last-child:before {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+
+/* Other Colors */
+
+.dtdr-container input[type='submit'],
+.dtdr-container input[type='reset'],
+.dtdr-container input[type='button'],
+.dtdr-container button[type='button'],
+.dtdr-container button:not(.dismissButton),
+.dtdr-container button.dismissButton:hover,
+.dtdr-container .button,
+.dtdr-container a.button,
+.custom-button-style,
+.custom-button-style:hover,
+.custom-button-style:focus,
+.dtdr-dashboard-container .woocommerce-button.view,
+.dtdr-dashbord-container .dtdr-packages-container .dtdr-packages-item-wrapper .dtdr-packagelist-details .dtdr-item-status-details .dtdr-proceed-button a.custom-button-style,
+.dtdr-packages-item-wrapper.type1 .dtdr-packagelist-view-details-button:hover span,
+.dtdr-packages-item-wrapper.type1 .dtdr-item-status-details .dtdr-proceed-button .custom-button-style:hover span,
+.dtdr-packages-item-wrapper.type1 .dtdr-item-status-details .dtdr-proceed-button .added_to_cart:hover:before,
+.dtdr-packages-item-wrapper.type2 .dtdr-packagelist-view-details .custom-button-style:hover span,
+.dtdr-packages-item-wrapper.type2 .dtdr-item-status-details .custom-button-style:hover,
+.dtdr-packages-item-wrapper.type2 .dtdr-item-status-details .added_to_cart:hover,
+.dtdr-packages-item-wrapper.type3 .dtdr-item-status-details .custom-button-style:hover,
+.dtdr-packages-item-wrapper.type3 .dtdr-item-status-details .added_to_cart:hover,
+.dtdr-packages-item-wrapper.type3 .dtdr-packagelist-view-details .custom-button-style:hover,
+.dtdr-packages-item-wrapper.type3 .dtdr-item-status-details .dtdr-purchased:hover,
+.dtdr-sf-orderby-field-holder ul.dtdr-sf-orderby-list li a:hover,
+.dtdr-sf-orderby-field-holder ul.dtdr-sf-orderby-list li a.active,
+.dtdr-user-list-item.type1 .dtdr-user-sociallinks-list li a:hover,
+.dtdr-sf-others-field-holder div.dtdr-sf-others-list div:hover,
+.dtdr-sf-others-field-holder div.dtdr-sf-others-list div.active,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-featured-item-container,
+.dtdr-listings-item-wrapper .dtdr-listings-item-top-section .dtdr-listings-item-ad-section,
+.dtdr-listings-item-wrapper.type1.has-post-thumbnail .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content>div.dtdr-listings-utils-item-holder .dtdr-listings-utils-item>*>span,
+.dtdr-listings-item-wrapper.type4 .dtdr-listings-item-top-section .dtdr-listings-item-top-section-content>div:not(.dtdr-listings-taxonomy-container) a.dtdr-listings-utils-favourite-item:hover span,
+.dtdr-dashbord-inbox-listing-conversation-wrapper ul.dtdr-dashbord-inbox-conversation-list li .dtdr-dashbord-inbox-conversation-reply-wrapper .dtdr-inbox-conversation-reply-submit,
+.dtdr-listings-floorplan-top-section .dtdr-listings-floorplan-expand-bottom-section,
+.single-dtdr_packages .dtdr-payment-details a.added_to_cart,
+.dtdr-comment-form-fields-holder .comment-form-media span:hover input#dtdr_media+label,
+.dtdr-comment-form-fields-holder .comment-form-media span:hover input#dtdr_media+label:before,
+div[class*="-apply-isotope"] div[class*="-isotope-filter"] a,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container.active .dtdr-listings-social-share-item-icon span,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon:hover span,
+.dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author:hover span {
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+	Responsive
+--------------------------------------------------------------*/
+
+
+/*----*****---- << Small Monitor >> ----*****----*/
+
+
+/* Note: Design for a width of 1440px */
+
+@media only screen and (min-width:1281px) and (max-width:1440px) {
+    .dtdr-container {
+        width: 1080px;
+    }
+}
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 960px */
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .dtdr-container {
+        width: 900px;
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .dtdr-container {
+        width: 710px;
+    }
+    .dtdr-custom-sidebar {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dtdr-container {
+        width: 420px;
+    }
+    .dtdr-column {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .dtdr-one-fourth,
+    .dtdr-one-half,
+    .dtdr-one-third,
+    .dtdr-three-fourth,
+    .dtdr-two-third,
+    .dtdr-one-fifth,
+    .dtdr-four-fifth,
+    .dtdr-three-fifth,
+    .dtdr-two-fifth,
+    .dtdr-one-sixth,
+    .dtdr-two-sixth,
+    .dtdr-three-sixth,
+    .dtdr-four-sixth,
+    .dtdr-five-sixth,
+    .column.no-space.dtdr-one-fourth,
+    .column.no-space.dtdr-one-third,
+    .column.no-space.dtdr-one-half,
+    .column.no-space.dtdr-one-fifth,
+    .column.no-space.dtdr-one-sixth,
+    .column.no-space.dtdr-three-fourth,
+    .column.no-space.dtdr-two-third,
+    .column.no-space.dtdr-four-fifth,
+    .column.no-space.dtdr-three-fifth,
+    .column.no-space.dtdr-two-fifth,
+    .column.no-space.dtdr-two-sixth,
+    .column.no-space.dtdr-three-sixth,
+    .column.no-space.dtdr-four-sixth,
+    .column.no-space.dtdr-five-sixth {
+        width: 100%;
+    }
+    .dtdr-custom-sidebar {
+        margin-top: 30px;
+    }
+}
+
+
+/*Upload Items Container*/
+
+.dtdr-upload-media-items-container input[type="button"],
+input.dtdr-generate-mls-number {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 479px) {
+    .dtdr-container {
+        max-width: 290px;
+    }
+    .dtdr-dashboard-container .woocommerce-button.view {
+        padding: 6px 10px;
+        font-size: 8px;
+    }
+    .dtdr-dashboard-container td,
+    .dtdr-dashboard-container tbody th {
+        padding: 10px 4px;
+    }
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {}
+
+@media only screen and (max-width: 319px) {}

@@ -1,0 +1,315 @@
+    /* Incharger/Seller */
+    
+    .dtdr-user-list-item {
+        margin-bottom: 30px;
+    }
+    
+    .dtdr-user-list-item .dtdr-user-sociallinks-list {
+        display: flex;
+        grid-column-gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .dtdr-user-list-item .dtdr-user-item-meta-data h4 {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    /* Type1 */
+    
+    .dtdr-user-list-item.type1 {
+        box-shadow: none;
+    }
+    
+    .dtdr-user-list-item.type1:hover {
+        background-color: #fff;
+    }
+    
+    .dtdr-user-list-item.type1 .dtdr-user-sociallinks-list {
+        margin-top: -65px;
+        opacity: 0;
+        visibility: hidden;
+        margin-bottom: 10px;
+    }
+    
+    .dtdr-user-list-item.type1:hover .dtdr-user-sociallinks-list {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .dtdr-user-list-item.type1 .dtdr-user-sociallinks-list li:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    @-moz-document url-prefix() {
+        .dtdr-user-list-item.type1 .dtdr-user-sociallinks-list li:not(:last-child) {
+            margin-right: 0;
+        }
+    }
+    
+    .dtdr-user-list-item.type1 .dtdr-user-sociallinks-list li a {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border-radius: 50%;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .dtdr-user-list-item.type1 .dtdr-user-item-meta-data {
+        padding: 45px 0 25px;
+    }
+    
+    .dtdr-user-list-item.type1:hover .dtdr-user-item-meta-data {
+        padding: 45px 32px 25px;
+    }
+    /* Type2 */
+    
+    .dtdr-user-list-item.type2 {
+        display: grid;
+        grid-template-columns: 32% 68%;
+        grid-column-gap: 30px;
+        align-items: center;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-image img {
+        border: 3px solid;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-specialization {
+        font-size: 14px;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-contactdetails-list {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-contactdetails-list li {
+        line-height: 24px;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-contactdetails-list li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-contactdetails-list li span {
+        margin-right: 15px;
+    }
+    
+    .dtdr-user-list-item.type2 .dtdr-user-item-meta-data h4,
+    .dtdr-user-list-item.type2 .dtdr-user-contactdetails-list li {
+        margin-bottom: 0;
+    }
+    /* Type3 */
+    
+    .dtdr-user-list-item.type3 {
+        border-width: 1px;
+        border-style: solid;
+        display: grid;
+        grid-template-columns: 32% 68%;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-image img {
+        object-fit: cover;
+        min-height: 100%;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data {
+        padding: 50px 40px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-user-item-meta-elements {
+        display: grid;
+        grid-template-columns: calc(100% - 95px) 55px 55px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-user-specialization {
+        margin-top: -10px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data h4 {
+        font-size: 24px;
+        padding-right: 20px;
+        margin-bottom: 0;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-sociallinks-list li {
+        margin: 0 8px 0 0;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-sociallinks-list li a {
+        font-size: 18px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-contactdetails-list {
+        margin-top: 30px;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-contactdetails-list li span {
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    /*With Sidebar Styles*/
+    
+    #primary.with-both-sidebar .dtdr-user-list-item.type2.dtdr-one-half,
+    #primary.with-both-sidebar .dtdr-user-list-item.type2.dtdr-one-third {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    
+    #primary.with-both-sidebar .dtdr-user-list-item.type1.dtdr-one-third {
+        width: calc(50% - 1%);
+    }
+    
+    #primary.with-both-sidebar .dtdr-user-list-item.type1.dtdr-one-third:nth-child(even) {
+        float: right;
+    }
+    /*----*****---- << Small Monitor >> ----*****----*/
+    /* Note: Design for a width of 1440px */
+    
+    @media only screen and (min-width:1281px) and (max-width:1440px) {
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 .dtdr-user-item-meta-data {
+            width: 100%;
+            padding: 30px 32px 25px;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-user-item-meta-elements {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 .dtdr-user-item-meta-data h4 {
+            width: 100%;
+            padding: 0 0 10px 0;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite {
+            margin-right: 10px;
+        }
+    }
+    /*----*****---- << Tablet (Landscape) >> ----*****----*/
+    /* Note: Design for a width of 960px */
+    
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+        #primary.page-with-sidebar:not(.with-both-sidebar) .dtdr-user-list-item.type2.dtdr-one-third {
+            width: 50%;
+            margin: 0 0 30px;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type3 .dtdr-user-item-meta-data {
+            width: 100%;
+            padding: 30px 32px 25px;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type1.dtdr-one-third {
+            width: 100%;
+            margin: 0 0 30px;
+        }
+    }
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/
+    /* Note: Design for a width of 768px */
+    
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+        .dtdr-user-list-item.type2.dtdr-column,
+        .dtdr-user-list-item.type3.dtdr-column {
+            width: 100%;
+            margin: 0 0 30px;
+            grid-template-columns: 35% 65%;
+        }
+        .dtdr-user-list-item.type1.dtdr-one-third .dtdr-user-item-meta-data {
+            padding: 35px 0 25px;
+        }
+        .dtdr-user-list-item.type1.dtdr-one-third:hover .dtdr-user-item-meta-data {
+            padding: 35px 32px 25px;
+        }
+        .dtdr-user-list-item.type1.dtdr-one-column .dtdr-user-sociallinks-list {
+            margin-top: -55px;
+            margin-bottom: 0px;
+        }
+        .dtdr-user-list-item.type1.dtdr-one-third .dtdr-user-sociallinks-list {
+            margin-top: -50px;
+        }
+        .dtdr-user-list-item.type1.dtdr-one-third .dtdr-user-sociallinks-list li a {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 13px;
+        }
+        .dtdr-user-list-item.type2.dtdr-one-third {
+            width: 50%;
+            margin: 0 0 30px;
+        }
+        .dtdr-user-list-item.type2:not(.dtdr-column) {
+            grid-template-columns: 35% 65%;
+        }
+    }
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/
+    /* Note: Design for a width of 767px */
+    
+    @media only screen and (max-width: 767px) {
+        .dtdr-user-list-item.type3 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data {
+            width: 100%;
+            padding: 30px 32px 25px;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-user-item-meta-elements {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data h4 {
+            width: 100%;
+            padding: 0 0 10px 0;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite {
+            margin-right: 10px;
+        }
+        #primary.with-both-sidebar .dtdr-user-list-item.type1.dtdr-one-third {
+            width: 100%;
+            margin: 0 0 30px;
+        }
+    }
+    /*----*****---- << Mobile (Portrait) >> ----*****----*/
+    /* Note: Design for a width of 480px */
+    
+    @media only screen and (max-width: 479px) {
+        .dtdr-user-list-item.type1 .dtdr-user-item-meta-data {
+            padding: 35px 0 25px;
+        }
+        .dtdr-user-list-item.type1:hover .dtdr-user-item-meta-data {
+            padding: 35px 32px 25px;
+        }
+        .dtdr-user-list-item.type1 .dtdr-user-sociallinks-list {
+            margin-top: -55px;
+            margin-bottom: 0px;
+        }
+        .dtdr-user-list-item.type2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .dtdr-user-list-item.type2 .dtdr-user-item-meta-data {
+            margin-top: 20px;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-sociallinks-list li a,
+        .dtdr-user-list-item.type3 .dtdr-user-specialization {
+            font-size: 14px;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-contactdetails-list {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    }

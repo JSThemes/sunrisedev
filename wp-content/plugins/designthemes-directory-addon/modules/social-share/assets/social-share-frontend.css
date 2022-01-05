@@ -1,0 +1,175 @@
+    /*----*****---- << Social Share >> ----*****----*/
+    
+    .dtdr-listings-social-share-container,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container {
+        position: relative;
+        float: none;
+        display: inline-block;
+        padding: 0;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author {
+        display: block;
+        position: relative;
+        margin: 0;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author {
+        float: left;
+        cursor: pointer;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite {
+        position: relative;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author span {
+        font-size: 16px;
+        height: 36px;
+        line-height: 38px;
+        width: 36px;
+        float: left;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list {
+        position: absolute;
+        right: -25px;
+        bottom: calc(100% + 20px);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        min-width: auto;
+        visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        margin-right: -5px;
+        z-index: 1;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list {
+        right: -10px;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list:before,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list:before {
+        content: '';
+        position: absolute;
+        border-width: 7px;
+        border-style: solid;
+        border-color: currentColor transparent transparent transparent;
+        bottom: 0;
+        right: 40px;
+        left: auto;
+        -webkit-transform: translateX(0) translateY(100%);
+        -ms-transform: translateX(0) translateY(100%);
+        -o-transform: translateX(0) translateY(100%);
+        transform: translateX(0) translateY(100%);
+        margin: auto;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list li,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list li:not(:last-child),
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list li:not(:last-child) {
+        margin: 0 5px 0 0;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list li a,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list li a {
+        font-size: 14px;
+        height: auto;
+        line-height: normal;
+        width: auto;
+        float: left;
+        text-align: center;
+        border-radius: 50%;
+        background: none;
+        margin: 0 10px 0 0;
+    }
+    
+    .dtdr-listings-social-share-container .dtdr-listings-social-share-list li:last-child a,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list li:last-child a {
+        margin-right: 0;
+    }
+    
+    .dtdr-listings-social-share-container.active .dtdr-listings-social-share-list,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container.active .dtdr-listings-social-share-list {
+        opacity: 1;
+        visibility: visible;
+        margin-right: 0;
+    }
+    /* .dtdr-listings-social-share-container.type1 .dtdr-listings-social-share-list li a, */
+    /* .dtdr-listings-social-share-container.type1 .dtdr-listings-social-share-item-icon span, */
+    
+    .dtdr-listings-social-share-container.type2.active .dtdr-listings-social-share-item-icon>span,
+    .dtdr-listings-social-share-container.type2:hover .dtdr-listings-social-share-item-icon>span
+    /* ,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon>span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author>span  */
+    
+    {
+        color: #fff;
+    }
+    
+    .dtdr-listings-social-share-container.type1 .dtdr-listings-social-share-list li a:hover {
+        background-color: #fff;
+    }
+    
+    .dtdr-listings-social-share-container.type2 .dtdr-listings-social-share-item-icon>span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon>span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author>span {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+    }
+    
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-item-icon>span,
+    .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-utils-favourite .dtdr-listings-utils-favourite-author>span {
+        color: #2a2a2a;
+    }
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/
+    /* Note: Design for a width of 767px */
+    
+    @media only screen and (max-width: 767px) {
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list {
+            bottom: calc(100% + 15px);
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list,
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list:before {
+            right: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list:before {
+            bottom: -14px;
+        }
+        .dtdr-user-list-item.type3 .dtdr-user-item-meta-data .dtdr-listings-social-share-container .dtdr-listings-social-share-list li a {
+            font-size: 13px;
+            height: 20px;
+            line-height: 20px;
+            width: 20px;
+            float: left;
+            text-align: center;
+        }
+    }

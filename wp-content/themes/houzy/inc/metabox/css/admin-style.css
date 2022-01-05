@@ -1,0 +1,13 @@
+/* Revolution slider UI fix */
+#viewWrapper .pickerisopen .wp-picker-clear { margin-top:0; }
+#viewWrapper .wp-picker-input-wrap { top:255px; }
+
+/* New */
+.menu-item-edit-active .menu-item-settings { display: inline-block !important; }
+
+.cs-framework.cs-metabox-framework .cs-nav-background { background-color: #0085ba; }
+.cs-framework.cs-metabox-framework .cs-nav ul li a { background-color: #0085ba; border-bottom-color: rgba(255, 255, 255, 0.15); color: #ffffff; }
+
+.cs-framework.cs-metabox-framework .cs-nav ul li .cs-section-active { background: #008ec2; }
+
+.cs-framework.cs-metabox-framework .cs-field-image_select input:checked ~ img { border-color: #008ec2; }

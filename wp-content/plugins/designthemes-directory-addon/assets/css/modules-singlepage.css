@@ -1,0 +1,1814 @@
+/*----*****---- << Transition >> ----*****----*/
+
+.dt-sc-sociable li a,
+.dt-sc-sociable li a span,
+.dt-sc-sociable li a span:before,
+.dt-sc-sociable li a span:after,
+.dtdr-listings-social-share-container .dtdr-listings-social-share-list,
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container,
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container span,
+.dtdr-listings-author-container>.dtdr-listings-author-details-holder,
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-author-details-holder,
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder .dtdr-swiper-bullet-pagination .swiper-pagination-bullet,
+.dtdr-listings-taxonomy-container.type5 li a span,
+.dtdr-listings-taxonomy-container.type6 li a span,
+.dtdr-listings-taxonomy-container.type6 li a span:before,
+.dtdr-listings-taxonomy-container.type6 li a span:after,
+.dtdr-listings-utils-container .dtdr-listings-utils-item span:before,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-contactdetails-list li span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-favourite-item span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-pageview-item span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-print-item:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-social-share-item-icon span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-average-rating-container:hover .dtdr-listings-average-rating-overall span,
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li>span,
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions:hover>span,
+.dtdr-listings-social-share-container.type2 .dtdr-listings-social-share-item-icon>span,
+.dtdr-listings-taxonomy-container li a:before,
+.dtdr-listings-taxonomy-container.type7 li a span:before,
+.dtdr-listings-taxonomy-container.type7 li a span:after,
+.dtdr-listings-taxonomy-container li a span.dtdr-listings-taxonomy-image:before,
+.dtdr-listings-taxonomy-container.type8 li a:before,
+.dtdr-listings-taxonomy-container.type8 li a:after,
+.dtdr-listings-taxonomy-container.type7 li a span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-date-container>span {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+
+/*----*****---- << Social Links >> ----*****----*/
+
+.dtdr-listings-sociallinks-container .dtdr-listings-sociallinks-list {
+    display: block;
+    clear: both;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.dtdr-listings-sociallinks-container .dtdr-listings-sociallinks-list li {
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    padding: 0;
+    position: relative;
+}
+
+.dtdr-listings-sociallinks-container .dtdr-listings-sociallinks-list li a {
+    font-size: 16px;
+    height: 36px;
+    line-height: 38px;
+    width: 36px;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Type1 */
+
+.dtdr-listings-sociallinks-container.type1 .dtdr-listings-sociallinks-list li a {
+    color: #fff;
+}
+
+
+/* Type2 */
+
+.dtdr-listings-sociallinks-container.type2 .dtdr-listings-sociallinks-list li a {
+    color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/* Type3 */
+
+.dtdr-listings-sociallinks-container.type3 .dtdr-listings-sociallinks-list li a {
+    color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* Type4 */
+
+.dtdr-listings-sociallinks-container.type4 .dtdr-listings-sociallinks-list li a {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dtdr-listings-sociallinks-container.type4 .dtdr-listings-sociallinks-list li a:hover {
+    color: #fff;
+}
+
+
+/* Type5 */
+
+.dtdr-listings-sociallinks-container.type5 .dtdr-listings-sociallinks-list li a {
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.dtdr-listings-sociallinks-container.type5 .dtdr-listings-sociallinks-list li a:hover {
+    color: #fff;
+}
+
+
+/* Type6 */
+
+.dtdr-listings-sociallinks-container.type6 .dtdr-listings-sociallinks-list li a {
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.dtdr-listings-sociallinks-container.type6 .dtdr-listings-sociallinks-list li a:hover {
+    color: #fff;
+}
+
+
+/* Type7 */
+
+.dtdr-listings-sociallinks-container.type7 .dtdr-listings-sociallinks-list li {
+    margin: 0;
+}
+
+.dtdr-listings-sociallinks-container.type7 .dtdr-listings-sociallinks-list li a {
+    color: #fff;
+}
+
+
+/* Type8 */
+
+.dtdr-listings-sociallinks-container.type8 .dtdr-listings-sociallinks-list li {
+    margin: 0;
+}
+
+.dtdr-listings-sociallinks-container.type8 .dtdr-listings-sociallinks-list li a {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dtdr-listings-sociallinks-container.type8 .dtdr-listings-sociallinks-list li:not(:last-child) a {
+    border-width: 1px 0px 1px 1px;
+}
+
+.dtdr-listings-sociallinks-container.type8 .dtdr-listings-sociallinks-list li a:hover {
+    color: #fff;
+}
+
+
+/*----*****---- << MLS Number >> ----*****----*/
+
+.dtdr-listings-mls-number-container {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.dtdr-listings-mls-number-container {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Type 1 */
+
+.dtdr-listings-mls-number-container.type1>span {
+    background: none;
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-mls-number-container.type2>span {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    line-height: normal;
+    color: #fff;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-mls-number-container.type3>span {
+    display: inline-flex;
+    padding: 13px 30px 13px 40px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.dtdr-listings-mls-number-container.type3>span:before {
+    content: "\f029";
+    position: relative;
+    height: 49px;
+    width: 49px;
+    line-height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    margin: -9px 15px -15px -35px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+
+/*----*****---- << Featured Style >> ----*****----*/
+
+.dtdr-listings-featured-item-container {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Type 1 */
+
+.dtdr-listings-featured-item-container.type1>span {
+    background: none;
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-featured-item-container.type2>span {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    line-height: normal;
+    color: #fff;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-featured-item-container.type3>span {
+    display: inline-flex;
+    padding: 13px 30px 13px 40px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.dtdr-listings-featured-item-container.type3>span:before {
+    content: "\f005";
+    position: relative;
+    height: 49px;
+    width: 49px;
+    line-height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    margin: -9px 15px -15px -35px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
+
+
+/*----*****---- << Price Style >> ----*****----*/
+
+.dtdr-listings-price-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.dtdr-listings-price-container .dtdr-listings-price-label-holder {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    line-height: normal;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-price-container .dtdr-listings-price-label-holder>*:not(:last-child) {
+    margin-right: 15px;
+}
+
+.dtdr-listings-price-container .dtdr-listings-price-label-holder del:not(:last-child) {
+    margin-right: 15px;
+}
+
+.dtdr-listings-price-container .dtdr-price-amount .dtdr-price-currency-symbol {
+    margin-right: 5px;
+}
+
+
+/* Type 1 */
+
+.dtdr-listings-price-container.type1>span {
+    background: none;
+}
+
+.dtdr-listings-price-container.type1 .dtdr-listings-price-label-holder del {
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+.dtdr-listings-price-container.type1 .dtdr-listings-price-label-holder ins {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-price-container.type2 .dtdr-listings-price-label-holder .dtdr-listings-price-item {
+    padding: 10px 20px;
+    line-height: normal;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.dtdr-listings-price-container.type2 .dtdr-listings-price-label-holder del {
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.dtdr-listings-price-container.type2 .dtdr-listings-price-label-holder del .dtdr-price-amount {
+    padding: 0;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-price-container.type3 .dtdr-price-currency-symbol {
+    border-radius: 100%;
+    text-align: center;
+}
+
+.dtdr-listings-price-container.type3 .dtdr-listings-price-label-holder .dtdr-listings-price-item {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.dtdr-listings-price-container.type3 .dtdr-listings-price-label-holder del {
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.dtdr-listings-price-container.type2 .dtdr-listings-price-label-holder .dtdr-listings-price-item,
+.dtdr-listings-price-container.type3 .dtdr-listings-price-label-holder ins,
+.dtdr-listings-price-container.type3 .dtdr-listings-price-label-holder del,
+.dtdr-listings-price-container.type3 .dtdr-price-currency-symbol {
+    color: #fff;
+}
+
+
+/* .dtdr-listings-price-container.type1 .dtdr-listings-price-label-holder,
+.dtdr-listings-price-container.type2 .dtdr-listings-price-label-holder {
+    color: #2a2a2a;
+} */
+
+
+/*----*****---- << Post Date >> ----*****----*/
+
+.dtdr-listings-post-dates-container .dtdr-listings-date-container {
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container>[class*="dtdr-listings-post-"]:not(:last-child),
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container>[class*="dtdr-listings-post-"]>div:not(:last-child) {
+    position: relative;
+    margin: 0 10px 0 0;
+}
+
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container .dtdr-listings-post-date-icon:before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container,
+.dtdr-listings-post-dates-container .dtdr-listings-post-date-container>[class*="dtdr-listings-post-"] {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* line-height: normal; */
+    flex-wrap: wrap;
+}
+
+
+/* Type 1 */
+
+.dtdr-listings-post-dates-container.type1 {
+    /* display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px; */
+    margin-bottom: 10px;
+}
+
+
+/* .dtdr-listings-post-dates-container.type1 .dtdr-listings-post-date-container span {
+    position: relative;
+    font-weight: 100;
+    margin: 0 10px 0 0;
+    font-family: "Font Awesome 5 Free";
+} */
+
+
+/* Type 2 */
+
+.dtdr-listings-post-dates-container.type2 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-post-dates-container.type2 .dtdr-listings-post-date-container span {
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-post-dates-container.type3 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container {
+    /* line-height: normal; */
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10em;
+    border: 2px solid;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container span {
+    position: relative;
+    margin-right: 10px;
+}
+
+.dtdr-listings-post-dates-container.type2 .dtdr-listings-post-date-container span
+/* ,
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container:hover,
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container:hover span,
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container:hover a,
+.dtdr-listings-post-dates-container.type3 .dtdr-listings-post-date-container span */
+
+{
+    color: #fff;
+}
+
+
+/* Type 4 */
+
+.dtdr-listings-post-dates-container.type4 {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-column-gap: 35px;
+    grid-row-gap: 15px; */
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-post-dates-container.type4 .dtdr-listings-post-date-container {
+    padding: 15px 30px;
+    border-radius: 10em;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-post-dates-container.type4 .dtdr-listings-post-date-container span {
+    position: relative;
+    margin-right: 10px;
+    /* font-size: 12px; */
+}
+
+
+/*----*****---- << Features Style >> ----*****----*/
+
+.dtdr-listings-features-box-container:not(.listing).dtdr-no-column {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: inherit;
+}
+
+.dtdr-listings-features-box-container:not(.listing).dtdr-no-column .dtdr-listings-features-box-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item>div.dtdr-listings-features-box-item-value span {
+    margin: 0 0 0 5px;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item {
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item>div {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item>div.dtdr-listings-features-box-item-value {
+    margin-right: 0;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item .dtdr-listings-features-box-item-title {
+    position: relative;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item>div {
+    color: inherit;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item .dtdr-listings-features-box-item-title:after {
+    content: ":";
+    display: inline;
+    position: relative;
+    right: 0;
+    top: 0;
+    font-weight: 500;
+}
+
+.dtdr-listings-features-box-container:not(.listing) .dtdr-listings-features-box-item .dtdr-listings-features-box-item-img {
+    width: 30px;
+    height: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+
+/* Feature Type 1 */
+
+.dtdr-listings-features-box-container:not(.listing).type1 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-title:first-child:before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.dtdr-listings-features-box-container:not(.listing).type1 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-title:first-child {
+    padding-left: 20px;
+}
+
+
+/* Feature Type 2 */
+
+.dtdr-listings-features-box-container:not(.listing).type2 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-img .dtdr-listings-features-box-item-title:first-child {
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+.dtdr-listings-features-box-container:not(.listing).type2 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-img .dtdr-listings-features-box-item-title:first-child:before {
+    content: none;
+}
+
+
+/* Feature Type 3 */
+
+.dtdr-listings-features-box-container:not(.listing).type3 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-icon {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+/* Feature Type 4 */
+
+.dtdr-listings-features-box-container:not(.listing).type4 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-title:first-child {
+    padding: 0;
+}
+
+.dtdr-listings-features-box-container:not(.listing).type4 .dtdr-listings-features-box-item:not(:last-child) {
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-right: 15px;
+}
+
+
+/* Feature Type 5 */
+
+.dtdr-listings-features-box-container:not(.listing).type5 .dtdr-listings-features-box-item {
+    padding: 15px 22px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    justify-content: center;
+}
+
+
+/* Feature Type 6 */
+
+.dtdr-listings-features-box-container:not(.listing).type6 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-details {
+    margin-right: 0;
+}
+
+.dtdr-listings-features-box-container:not(.listing).type6 .dtdr-listings-features-box-item .dtdr-listings-features-box-item-value span {
+    margin-left: 5px;
+}
+
+
+/* Feature Type 7 */
+
+.dtdr-listings-features-box-container:not(.listing).type7 .dtdr-listings-features-box-item {
+    border: 1px solid;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+/*----*****---- << Request button Style >> ----*****----*/
+
+.dtdr-listings-contactdetails-request-container {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.dtdr-listings-contactdetails-request-container>a {
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+
+/* Request Button type 2 */
+
+.dtdr-listings-contactdetails-request-container.type2>a {
+    border: 2px solid;
+}
+
+
+/* Request Button type 3 */
+
+.dtdr-listings-contactdetails-request-container.type3>a {
+    border-radius: 30px;
+    border: 2px solid;
+}
+
+.dtdr-listings-contactdetails-request-container.type1>a,
+.dtdr-listings-contactdetails-request-container.type2>a:hover,
+.dtdr-listings-contactdetails-request-container.type3>a:hover {
+    color: #fff;
+}
+
+
+/* Request Notification Box */
+
+.dtdr-listings-contactdetails-request-container .dtdr-contactdetails-request-notification-box {
+    clear: both;
+    padding: 20px 30px;
+    margin: 15px 0 0 0;
+    position: relative;
+}
+
+.dtdr-listings-contactdetails-request-container>a>span {
+    position: relative;
+    margin: 0 10px 0 0;
+}
+
+.dtdr-listings-contactdetails-request-container .dtdr-contactdetails-request-notification-box {
+    background: #2a2a2a;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.dtdr-listings-contactdetails-request-container .dtdr-contactdetails-request-notification-box:before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    top: -7px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #2a2a2a;
+    left: 20px;
+    margin: auto;
+}
+
+
+/*----*****---- << Author Details Style >> ----*****----*/
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background: #fff;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+}
+
+.dtdr-listings-author-container .dtdr-one-column:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>[class*="dtdr-listings-author-"] {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details {
+    padding: 25px 35px;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-image {
+    height: 100%;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-image img {
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    width: 100%;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details>div {
+    line-height: normal;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-author-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-author-specialization {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-sociallinks-list {
+    display: flex;
+    grid-column-gap: 10px;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-sociallinks-list li {
+    margin-bottom: 0;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-sociallinks-list li:not(:last-child) {
+    margin: 0 8px 0 0;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-contactdetails-list {
+    margin-top: 30px;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-contactdetails-list li span {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-sociallinks-list li>a {
+    color: #2a2a2a;
+}
+
+.dtdr-listings-author-container .dtdr-listings-author-details-holder>.dtdr-listings-author-details .dtdr-listings-contactdetails-list>li:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+
+/* Author Carousel */
+
+.dtdr-listings-author-container[class*=swiper-container-] .swiper-slide:hover {
+    box-shadow: 0 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder {
+    margin: 30px auto 0;
+    float: left;
+    width: 100%;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder:empty {
+    display: none;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-author-details-holder.swiper-slide-active {
+    margin-right: 20px;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"] {
+    border: none;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"]:last-child::before {
+    right: 0;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"]:last-child::before,
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-"]:before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-"] {
+    width: 60px;
+}
+
+
+/* Author Bullet Carousel */
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder .dtdr-swiper-bullet-pagination {
+    position: static;
+    cursor: auto;
+    text-align: center;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder .dtdr-swiper-bullet-pagination .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.dtdr-listings-author-container[class*=swiper-container-] .dtdr-listings-swiper-pagination-holder .dtdr-swiper-bullet-pagination .swiper-pagination-bullet-active {
+    width: 25px;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+
+/* Author Arrow Pagination */
+
+.dtdr-swiper-arrow-pagination {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"] {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0;
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"]:before {
+    position: relative;
+    content: "\f2ea";
+    display: block;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 24px;
+}
+
+.dtdr-listings-swiper-pagination-holder.type1 a[class*="dtdr-swiper-arrow-"]:last-child:before {
+    transform: scaleX(-1);
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-"] {
+    border: none;
+    font-size: 0;
+    height: 80px;
+    line-height: 80px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    visibility: hidden;
+    width: 40px;
+    z-index: 2;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow"] {
+    color: #fff;
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class$="dtdr-swiper-arrow-prev"] {
+    margin-left: -40px;
+    left: 0;
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class$="dtdr-swiper-arrow-next"] {
+    margin-right: -40px;
+    right: 0;
+}
+
+.dtdr-listings-author-container.swiper-container:hover .dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-"] {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dtdr-listings-author-container.swiper-container:hover .dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-prev"] {
+    margin-left: 0;
+}
+
+.dtdr-listings-author-container.swiper-container:hover .dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-next"] {
+    margin-right: 0;
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow"]:before {
+    display: block;
+    font-family: 'IcoMoon-Ultimate' !important;
+    font-size: 24px;
+    line-height: inherit;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-prev"]:before {
+    content: "\edc6";
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow-next"]:before {
+    content: "\edbe";
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow"] {
+    background-color: rgba(30, 48, 110, 0.15);
+}
+
+.dtdr-listings-swiper-pagination-holder.type2 a[class*="dtdr-swiper-arrow"]:hover {
+    background-color: rgba(30, 48, 110, 0.6);
+}
+
+
+/*----*****---- << Taxonomy Style >> ----*****----*/
+
+.dtdr-listings-taxonomy-container,
+.dtdr-listings-taxonomy-container ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-taxonomy-container li {
+    display: flex;
+    margin: 0 10px 10px 0;
+}
+
+.dtdr-listings-taxonomy-container li:last-child {
+    margin-right: 0;
+}
+
+.dtdr-listings-taxonomy-container.type1 li a,
+.dtdr-listings-taxonomy-container.type3 li a span.dtdr-listings-taxonomy-image,
+.dtdr-listings-taxonomy-container.type4 li a,
+.dtdr-listings-taxonomy-container.type6 li a,
+.dtdr-listings-taxonomy-container.type8 li a {
+    position: relative;
+    z-index: 1;
+}
+
+.dtdr-listings-taxonomy-container.type1 li a:before,
+.dtdr-listings-taxonomy-container.type3 li a span.dtdr-listings-taxonomy-image:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.3) 10%, rgba(143, 143, 143, 0.15) 50%, rgba(255, 255, 255, 0) 65%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.3) 10%, rgba(143, 143, 143, 0.15) 50%, rgba(255, 255, 255, 0) 65%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 10%, rgba(143, 143, 143, 0.15) 50%, rgba(255, 255, 255, 0) 65%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ffffff", GradientType=1);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.dtdr-listings-taxonomy-container.type1 li a:hover:before,
+.dtdr-listings-taxonomy-container.type3 li a:hover span.dtdr-listings-taxonomy-image:before,
+.dtdr-listings-taxonomy-container.type5 .dtdr-listings-taxonomy-list li a:hover:before {
+    opacity: 1;
+}
+
+.dtdr-listings-taxonomy-container.type1 li a,
+.dtdr-listings-taxonomy-container.type2 li a,
+.dtdr-listings-taxonomy-container.type4 li a,
+.dtdr-listings-taxonomy-container.type5 li a,
+.dtdr-listings-taxonomy-container.type7 li a,
+.dtdr-listings-taxonomy-container.type8 li a {
+    color: #fff;
+}
+
+.dtdr-listings-taxonomy-container.type2 li a:hover span:first-child:not(:only-child),
+.dtdr-listings-taxonomy-container.type3 li a:hover img,
+.dtdr-listings-taxonomy-container.type4 li a:hover span:first-child:not(:only-child),
+.dtdr-listings-taxonomy-container.type5 li a:hover span:first-child:not(:only-child) {
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}
+
+@-webkit-keyframes toRightFromLeft {
+    49% {
+        -webkit-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes toRightFromLeft {
+    49% {
+        -moz-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes toRightFromLeft {
+    49% {
+        transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+
+/* Type 1 */
+
+.dtdr-listings-taxonomy-container.type1 li a {
+    font-size: 14px;
+    line-height: normal;
+    padding: 5px 10px;
+}
+
+
+/* Type 2 */
+
+.dtdr-listings-taxonomy-container.type2 li a {
+    font-size: 14px;
+    line-height: normal;
+    padding: 5px 10px;
+}
+
+.dtdr-listings-taxonomy-container.type2 li a span:first-child:not(:only-child) {
+    margin-right: 5px;
+}
+
+
+/* Type 3 */
+
+.dtdr-listings-taxonomy-container.type3 li a {
+    line-height: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-listings-taxonomy-container.type3 li a span.dtdr-listings-taxonomy-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.dtdr-listings-taxonomy-container.type3 li a img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+
+/* Type 4 */
+
+.dtdr-listings-taxonomy-container.type4 li a {
+    line-height: normal;
+    padding: 5px 20px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dtdr-listings-taxonomy-container.type4 li a span:first-child:not(:only-child) {
+    margin-right: 5px;
+}
+
+
+/* Type 5 */
+
+.dtdr-listings-taxonomy-container.type5 li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dtdr-listings-taxonomy-container.type5 li a {
+    padding: 8px 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.dtdr-listings-taxonomy-container.type5 li a span {
+    line-height: normal;
+}
+
+.dtdr-listings-taxonomy-container.type5 li a span.dtdr-listings-taxonomy-image img {
+    width: 22px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.dtdr-listings-taxonomy-container.type5 .dtdr-listings-taxonomy-list li a span:first-child:not(:only-child) {
+    margin-right: 10px;
+}
+
+.dtdr-listings-taxonomy-container.type5 .dtdr-listings-taxonomy-list li a:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    background: none;
+}
+
+
+/* Type 6 */
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a span {
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a:hover span {
+    border-color: transparent;
+}
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a:hover span:before,
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a:hover span:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a span:before {
+    left: 0;
+    top: -2px;
+}
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a span:after {
+    right: 0;
+    bottom: -2px;
+}
+
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a span:before,
+.dtdr-listings-taxonomy-container.type6 .dtdr-listings-taxonomy-list li a span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    pointer-events: none;
+    background: currentColor;
+    opacity: 0;
+}
+
+
+/* Type 7 */
+
+.dtdr-listings-taxonomy-container.type7 li a {
+    position: relative;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: currentColor;
+    opacity: 0;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a:hover:before {
+    opacity: .25;
+    height: 100%;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a span {
+    font-size: 14px;
+    line-height: normal;
+    padding: 5px 10px;
+    position: relative;
+    float: left;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a span:before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 2px;
+    top: 2px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid currentColor;
+    border-right: 5px solid transparent;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    right: 2px;
+    bottom: 2px;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid currentColor;
+    border-left: 5px solid transparent;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a:hover span:before {
+    border-top: 0 solid currentColor;
+    border-right: 0 solid transparent;
+}
+
+.dtdr-listings-taxonomy-container.type7 li a:hover span:after {
+    border-bottom: 0 solid currentColor;
+    border-left: 0 solid transparent;
+}
+
+
+/* Type 8 */
+
+.dtdr-listings-taxonomy-container.type8 li a {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: normal;
+    padding: 8px 15px;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.dtdr-listings-taxonomy-container.type8 li a:before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    position: relative;
+    width: 6px;
+    float: left;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.dtdr-listings-taxonomy-container.type8 li a:hover:after {
+    opacity: 0;
+}
+
+.dtdr-listings-taxonomy-container.type8 li a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ffffff", GradientType=1);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+/*----*****---- << Utils Style >> ----*****----*/
+
+.dtdr-listings-utils-container p {
+    margin-bottom: 0;
+}
+
+.dtdr-listings-utils-container {
+    float: left;
+    position: relative;
+    width: 100%;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item.dtdr-listings-utils-print .dtdr-listings-utils-print-item {
+    cursor: pointer;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item.dtdr-listings-utils-print .dtdr-listings-utils-print-item span {
+    margin-right: 0;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item:empty {
+    display: none;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item.dtdr-listings-utils-title:only-child {
+    margin-bottom: 0;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item h3.dtdr-listings-utils-title-item {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item h3.dtdr-listings-utils-title-item a {
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item.dtdr-listings-utils-price .dtdr-listings-price-label-holder>* {
+    margin-right: 8px;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item:last-child {
+    margin-right: 0;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item>* {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-taxonomy-list {
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-contactdetails-list>li {
+    margin-bottom: 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-contactdetails-list>li:not(:last-child),
+*[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-social-share-list>li:not(:last-child) {
+    margin-right: 10px;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li:not(:last-child) {
+    margin-right: 20px;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li {
+    margin-bottom: 10px;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-contactdetails-list>li>span,
+*[class*="dtdr-listings-utils-"]>span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-social-share-item-icon span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-overall span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item-container>span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li a span {
+    min-width: 40px;
+    min-height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item {
+    align-items: center;
+    padding: 10px 20px;
+    background: #f2f2f2;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item del {
+    /* font-size: 16px;
+    color: #8a8a8a; */
+    margin-right: 10px;
+    opacity: .35;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item .dtdr-price-amount {
+    align-items: flex-start;
+}
+
+
+/* *[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item ins {
+    font-size: 24px;
+    font-weight: 600;
+} */
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item .dtdr-price-currency-symbol {
+    font-size: 60%;
+    line-height: normal;
+    margin-right: 2px;
+}
+
+*[class*="dtdr-listings-utils-"].dtdr-listings-utils-favourite>span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+*[class*="dtdr-listings-utils-"] a.dtdr-listings-utils-favourite-item span {
+    margin-right: 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-holder span {
+    font-size: 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-holder span:before {
+    font-size: initial;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-holder span:not(:last-child):before {
+    margin: 0 5px 0 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item-container>span:before {
+    content: "\f024";
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container .dtdr-listings-start-date-container span:before {
+    content: "\f251"
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container .dtdr-listings-end-date-container span:before {
+    content: "\f253";
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container .dtdr-listings-post-date-container span:before {
+    content: "\f073";
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container [class*="-date-container"]:not(:last-child) {
+    margin: 0 20px 0 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item-container>span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container span:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-social-share-list>li {
+    margin-bottom: 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-label-holder del {
+    display: inline-flex;
+}
+
+
+/* *[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li {
+    margin-bottom: 0;
+} */
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li a span.dtdr-listings-taxonomy-name:last-child {
+    width: auto;
+    height: auto;
+    background: none;
+    margin: 0;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-contactdetails-list>li>span,
+*[class*="dtdr-listings-utils-"]>span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-social-share-item-icon span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-social-share-list>li a,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-holder span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-overall span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-label-holder>*,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item-container,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li a span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container .dtdr-listings-date-holder,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-contactdetails-list>li,
+.dtdr-listings-social-share-container.type2 .dtdr-listings-social-share-item-icon>span {
+    color: #2a2a2a;
+}
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-contactdetails-list>li>span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-utils-pageview-item>span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-social-share-item-icon span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-average-rating-overall span,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-price-before-label,
+
+/* *[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-price-amount .dtdr-price-currency-symbol, */
+
+*[class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-label-holder> :not(*:last-child),
+*[class*="dtdr-listings-utils-"] .dtdr-listings-featured-item-container>span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li a span:first-child,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-taxonomy-container .dtdr-listings-taxonomy-list li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-date-container:hover span:before,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-contactdetails-list li:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-favourite-item:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-pageview-item:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-utils-print-item:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-social-share-item-icon:hover span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-social-share-container.active .dtdr-listings-social-share-item-icon span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-average-rating-container:hover .dtdr-listings-average-rating-overall span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-featured-item-container:hover span:before,
+*[class*="dtdr-listings-utils-"] .dtdr-listings-post-dates-container [class*="-date-container"]:hover span:before {
+    color: #fff;
+}
+
+
+/*----*****---- << Contact Details Style >> ----*****----*/
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container,
+.dtdr-listings-contactdetails-container[class*="type"] {
+    float: left;
+    position: relative;
+    width: 100%;
+    line-height: normal;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list {
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-date-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-items: baseline;
+}
+
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li:last-child,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li:last-child {
+    margin-bottom: 0;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li>span,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li>span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-date-container>span {
+    min-width: 40px;
+    min-height: 40px;
+    background-color: #f2f2f2;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li p,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li p {
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions {
+    float: left;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions>span,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions>span {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+}
+
+.dtdr-listings-utils-item .dtdr-listings-contactdetails-container .dtdr-listings-contactdetails-list>li:hover>span,
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li:hover>span,
+.dtdr-listings-contactdetails-container[class*="type2"] .dtdr-listings-contactdetails-list>li:hover>span,
+.dtdr-listings-utils-container .dtdr-listings-utils-item .dtdr-listings-date-container:hover>span {
+    color: #ffffff;
+}
+
+.dtdr-listings-contactdetails-container[class*="type"] .dtdr-listings-contactdetails-list>li:hover .dtdr-listings-address-directions>span,
+.dtdr-listings-contactdetails-container[class*="type2"] .dtdr-listings-contactdetails-list>li .dtdr-listings-address-directions>span,
+.dtdr-listings-contactdetails-container[class*="type2"] .dtdr-listings-contactdetails-list>li:hover .dtdr-listings-address-directions>span {
+    background: none;
+}
+
+
+/* Default Template */
+
+.dtdr-single-header-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dtdr-content-area {
+    padding-left: 20px;
+}
+
+
+/*----*****---- << Small Monitor >> ----*****----*/
+
+
+/* Note: Design for a width of 1440px */
+
+@media only screen and (min-width:1281px) and (max-width:1440px) {
+    .dtdr-one-half.dtdr-image-area {
+        width: 40%;
+        margin: 0;
+    }
+    .dtdr-one-half.dtdr-content-area {
+        width: 55%;
+        /* padding: 20px 0 50px; */
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 1024px */
+
+@media only screen and (max-width:1024px) {
+    .dtdr-one-half.dtdr-image-area,
+    .dtdr-one-half.dtdr-content-area {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .dtdr-content-area .dtdr-column {
+        margin: 0;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    *[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-contactdetails-list>li:not(:last-child)
+    /* ,
+    *[class*="dtdr-listings-utils-"] .dtdr-listings-utils-item .dtdr-listings-social-share-list>li:not(:last-child) */
+    {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    [class*="dtdr-listings-utils-"] .dtdr-listings-price-container .dtdr-listings-price-item {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

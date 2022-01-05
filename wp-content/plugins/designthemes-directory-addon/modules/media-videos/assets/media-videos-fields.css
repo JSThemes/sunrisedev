@@ -1,0 +1,29 @@
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item:last-child {
+    margin-bottom: 30px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item {
+    display: grid;
+    grid-template-columns: calc(100% - 50px) 50px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item input {
+    margin-bottom: 0;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item .dtdr-media-videos-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item .dtdr-media-videos-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item .dtdr-media-videos-box-options span.dtdr-remove-media-videos {
+    cursor: pointer;
+}
+
+.dtdr-add-listing .dtdr-dashbord-section-holder-content .dtdr-dashboard-option-item .dtdr-media-videos-box-item .dtdr-media-videos-box-options span.dtdr-sort-media-videos {
+    cursor: grab;
+}

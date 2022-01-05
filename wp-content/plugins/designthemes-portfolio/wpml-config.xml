@@ -1,0 +1,18 @@
+<wpml-config>
+
+    <custom-fields>
+		  <custom-field action="copy">_portfolio_settings</custom-field>      
+		  <custom-field action="copy">dtportfolio_template_settings</custom-field>      
+    </custom-fields>
+
+    <custom-types>
+        <custom-type translate="1">dt_portfolios</custom-type>       
+    </custom-types>
+
+    <taxonomies>
+        <taxonomy translate="1">portfolio_entries</taxonomy>     
+        <taxonomy translate="1">portfolio_tags</taxonomy>     
+		    <taxonomy translate="0">dt_dummy</taxonomy>
+    </taxonomies>
+
+</wpml-config>
